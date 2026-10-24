@@ -7,7 +7,7 @@
 | `parties[].name` | `nombre_fantasia` | Nombre de fantasía (lo que busca `name=`) |
 | `parties[].contactPoint` | `contacto.telefono`, `contacto.correo`, `contacto.fax_o_celular` | Llaves de cruce |
 | `parties[].address` | `direccion` | Llave de cruce |
-| `parties[].details.sanctions[]` | `sanciones[]` con `vigente_por_fechas` | Reglas duras / sanciones históricas |
+| `parties[].details.sanctions[]` | `sanciones[]` con `vigente` | Reglas duras / sanciones históricas |
 | `parties[].details.categories` | `categorias` | Rubro declarado vs. lo que vende |
 | `parties[].roles` (`tenderer`, `supplier`, `buyer`) | `partes[].roles` en `obtener_record_ocds` | Competidores y convocantes |
 | `tender.numberOfTenderers` | `oferentes` | Oferente único |

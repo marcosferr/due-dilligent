@@ -9,7 +9,7 @@ la UNI debe reemplazarlos antes de usar el sistema.**
 
 1. **Reglas duras** (deciden solas el color). Solo valen sobre un `hecho` con identificador y
    confiabilidad A o B; si no, el sistema las convierte en posible alerta `regla_dura_sin_confirmar`.
-   - `inhabilitacion_dncp_vigente`: inhabilitación con `vigente_por_fechas: true` en la DNCP.
+   - `inhabilitacion_dncp_vigente`: inhabilitación con `vigente: true` (por fechas y sin suspensión ni rehabilitación) en la DNCP.
    - `sancion_confirmada_por_identificador`: candidato de `screen_*` con `coincide_identificador: true`.
    - `ruc_cancelado_o_bloqueado`: estado CANCELADO o BLOQUEADO en la DNIT.
 2. **Puntaje** sobre hechos y posibles alertas con `categoria_alerta`:

@@ -49,7 +49,7 @@ def buscar_proveedores(
 ) -> dict[str, Any]:
     """Busca proveedores por nombre de fantasía (subcadena), RUC, categoría o tipo de sanción
     (p. ej. INHABILITACION, AMONESTACION). Devuelve razón social, contacto, dirección y sanciones con
-    `vigente_por_fechas`. Hasta 10 por página."""
+    `vigente`. Hasta 10 por página."""
     texto = f"search/suppliers name={nombre!r} ruc={ruc!r} categoria={categoria_id!r} sancion={tipo_sancion!r} p{pagina}"
     return _ejecutar(caso_id, texto,
                      lambda c: c.buscar_proveedores(nombre, ruc, categoria_id, tipo_sancion, pagina),

@@ -13,7 +13,7 @@ Puntos clave:
 - La DNCP sin token admite 15 llamadas por minuto en total: priorizá el RUC, no repitas consultas.
 - `buscar_proveedores(nombre=)` busca en el nombre de fantasía; `buscar_procesos(nombre_proveedor=)`
   en la razón social. Probá cada variante en ambas para las entidades sin RUC.
-- Sanción con `vigente_por_fechas: true` de tipo INHABILITACION → hecho A con
+- Sanción con `vigente: true` (por fechas y sin suspensión ni rehabilitación) de tipo INHABILITACION → hecho A con
   `regla_dura: inhabilitacion_dncp_vigente`. Cumplida → `sancion_dncp_historica`.
 - Registrá competidores frecuentes como entidades (`rol: competidor`) con su contacto, para los cruces.
 - Capturá la URL de la API antes de registrar cada hallazgo y pasá `consulta_id` y `captura_id`.

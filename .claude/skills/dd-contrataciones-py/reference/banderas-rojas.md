@@ -15,7 +15,7 @@ salvo que el criterio del caso diga otra cosa.
 | Adjudicado ≈ estimado | `adjudicaciones[].monto` muy cercano a `monto_estimado` en varios procesos | Posible filtración de precio |
 | Oferentes que comparten datos de contacto | Teléfono, correo, dirección o dominio iguales entre `partes` tenderer (ver dd-cruces) | Posible colusión o ofertas de cobertura |
 | Rotación de ganadores | Los mismos oferentes se turnan como ganador en procesos del mismo convocante | Posible reparto de mercado |
-| Proveedor ganador con sanción vigente | `sanciones[].vigente_por_fechas` en la fecha de adjudicación | Incumplimiento de inhabilitación |
+| Proveedor ganador con sanción vigente | `sanciones[].vigente` en la fecha de adjudicación | Incumplimiento de inhabilitación |
 | Protestas reiteradas | `protestas` en varios procesos ganados | Cuestionamientos del proceso |
 | Rubro no coincide con lo adjudicado | `categorias` del proveedor vs. `categoria` del proceso | Empresa de fachada o intermediaria |
 

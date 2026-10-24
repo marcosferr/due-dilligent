@@ -17,14 +17,17 @@ nombre, no repetir consultas (hay caché de 24 h) y paginar solo si hace falta.
 - "Sin resultados" = `estado: no_encontrado` (la API devuelve 404). Es un resultado: ya quedó
   registrado; probar las demás variantes antes de concluir nada.
 - Una sanción puede decir `estado_segun_fuente: "Activo"` con fecha de fin pasada. Usar
-  `vigente_por_fechas`.
+  `vigente`.
 
 ## Pasos por entidad con RUC
 1. `obtener_proveedor(caso_id, ruc)`: razón social, nombre de fantasía, contacto, dirección,
    categorías, sanciones, cantidad de adjudicaciones.
    - Hallazgo de identidad (`hecho`, A, `identificador_que_ata: "RUC …"`).
-   - Cada sanción: `hecho` A. Vigente por fechas e INHABILITACION → `regla_dura: inhabilitacion_dncp_vigente`.
+   - Cada sanción: `hecho` A. INHABILITACION con `vigente: true` → `regla_dura: inhabilitacion_dncp_vigente`.
      Ya cumplida → `categoria_alerta: sancion_dncp_historica`. Copiar la descripción en `extracto`.
+   - Si `suspendida_o_rehabilitada: true` (p. ej. medida cautelar del Tribunal de Cuentas), **no** aplicar
+     la regla dura aunque las fechas sigan corriendo: registrar la sanción con `sancion_dncp_historica` y
+     copiar en `extracto` el evento que la suspende (resolución, auto interlocutorio, fecha).
    - Teléfono, correo y dirección → `actualizar_entidad` (llaves de cruce).
 2. `buscar_procesos(caso_id, ruc_proveedor=ruc)`: total de procesos adjudicados; revisar las páginas
    necesarias. Para la ficha alcanza un hallazgo `contexto` con el total y los procesos relevantes

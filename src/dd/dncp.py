@@ -8,12 +8,14 @@ Comportamiento comprobado contra la API pública (oct. 2026):
   del adjudicado.
 - "Sin resultados" vuelve como HTTP 404 con `{"message": "No encontrado"}`.
 - Una sanción puede figurar con `status: "Activo"` aunque su `endDate` ya pasó: la vigencia
-  se calcula por fechas.
+  se calcula por fechas, y además se anula si un evento posterior la suspende o rehabilita al
+  proveedor (medida cautelar del Tribunal de Cuentas).
 """
 
 from __future__ import annotations
 
 import json
+import re
 import time
 from datetime import datetime, timezone
 from typing import Any
@@ -188,6 +190,19 @@ def sancion_vigente(sancion: dict[str, Any], ahora: datetime | None = None) -> b
     return fin is None or fin >= ahora
 
 
+_REHABILITACION = re.compile(r"habilitaci[oó]n del proveedor|suspend|levant", re.IGNORECASE)
+
+
+def sancion_suspendida(sancion: dict[str, Any]) -> bool:
+    """Una medida cautelar o una rehabilitación en el SICP deja sin efecto la sanción aunque
+    sus fechas sigan corriendo (caso real: A.I. del Tribunal de Cuentas que suspende la resolución)."""
+    for ev in sancion.get("events") or []:
+        texto = f"{ev.get('title', '')} {ev.get('description', '')}"
+        if ev.get("title") != "Inhabilitación creada" and _REHABILITACION.search(texto):
+            return True
+    return False
+
+
 def proveedor_compacto(p: dict[str, Any]) -> dict[str, Any]:
     ident = p.get("identifier") or {}
     detalles = p.get("details") or {}
@@ -196,6 +211,7 @@ def proveedor_compacto(p: dict[str, Any]) -> dict[str, Any]:
     sanciones = []
     for s in detalles.get("sanctions") or []:
         periodo = s.get("period") or {}
+        por_fechas, suspendida = sancion_vigente(s), sancion_suspendida(s)
         sanciones.append(
             {
                 "tipo": s.get("type"),
@@ -203,7 +219,14 @@ def proveedor_compacto(p: dict[str, Any]) -> dict[str, Any]:
                 "inicio": periodo.get("startDate"),
                 "fin": periodo.get("endDate"),
                 "estado_segun_fuente": s.get("status"),
-                "vigente_por_fechas": sancion_vigente(s),
+                "vigente_por_fechas": por_fechas,
+                "suspendida_o_rehabilitada": suspendida,
+                "vigente": por_fechas and not suspendida,
+                "eventos": [
+                    {"titulo": e.get("title"), "fecha": (e.get("date") or "")[:10],
+                     "descripcion": (e.get("description") or "")[:400]}
+                    for e in s.get("events") or []
+                ],
             }
         )
     return {

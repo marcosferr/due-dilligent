@@ -34,3 +34,18 @@ def test_sancion_sin_fin_es_vigente():
 
 def test_recortar():
     assert dncp.recortar({"x": "a" * 10000}, 100)["recortado"] is True
+
+
+def test_sancion_suspendida_por_cautelar_no_es_vigente():
+    # Forma real de la API: inhabilitación con fechas vigentes, suspendida por el Tribunal de Cuentas
+    p = {"identifier": {"id": "2515412-5"}, "details": {"sanctions": [{
+        "type": "INHABILITACION", "status": "Activo", "description": "mala fe",
+        "period": {"startDate": "2025-09-16T00:00:00-04:00", "endDate": "2099-09-16T00:00:00-04:00"},
+        "events": [
+            {"title": "Inhabilitación creada", "description": "mala fe", "date": "2025-09-16T08:00:00-04:00"},
+            {"title": "Habilitación del proveedor", "date": "2025-11-26T10:00:00-04:00",
+             "description": "Auto Interlocutorio N° 728/25 ... SUSPENDER, los efectos de la Res. DNCP ..."},
+        ]}]}}
+    s = dncp.proveedor_compacto(p)["sanciones"][0]
+    assert s["vigente_por_fechas"] is True
+    assert s["suspendida_o_rehabilitada"] is True and s["vigente"] is False
