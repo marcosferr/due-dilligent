@@ -146,6 +146,16 @@ Las reglas de oro se aplican **en el código**, no solo en el prompt:
 | Respuestas grandes (> 10.000 tokens) | Respuestas compactas y paginadas; recorte de JSON grandes | — |
 | Prompt injection desde páginas | Herramientas de solo lectura; instrucciones explícitas en skills y subagentes; revisión humana | — |
 
+## 8b. Base comparativa de proveedores (agregada)
+
+- `src/dd/masivo.py` carga las descargas masivas OCDS de la DNCP por año (adjudicaciones, procesos,
+  contratos, pagos y, opcional, ítems con precio) bajando por HTTP de rango solo los CSV necesarios.
+- `src/dd/perfil.py` calcula indicadores por RUC y la tabla comparativa; herramientas MCP
+  `perfil_proveedor`, `comparar_proveedores`, `precios_vs_mercado`, `estado_datos_masivos`; CLI `dd comparar`.
+- Skill `dd-comparacion-proveedores` con fuentes y límites de cada indicador. Se registra como contexto.
+- Pendiente: tasa de éxito por oferta (necesita `ten-masivo.zip`), entregables a tiempo (tabla de 4,3 GB:
+  filtrar por RUC), adendas, balances de emisoras (BVA) y tamaño oficial (MIC).
+
 ## 9. Después del hackatón
 
 - Backend con Claude Agent SDK que corra el mismo flujo (misma configuración de MCP; sin OAuth interactivo, con tokens).

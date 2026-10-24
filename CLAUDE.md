@@ -6,7 +6,8 @@ Sistema agéntico de due diligence de proveedores paraguayos. Todo en español (
 - Instalar: `uv sync --extra dev`
 - Pruebas: `uv run pytest` (sin red; usan `DD_MODO=mock` y un `DD_HOME` temporal)
 - Demo sin LLM: `uv run python scripts/demo_mock.py`
-- CLI: `uv run dd {descargar-fuentes,salud,caso,ficha,evaluar}`
+- CLI: `uv run dd {descargar-fuentes,salud,caso,ficha,evaluar,comparar}`
+- Base comparativa DNCP: `uv run dd descargar-fuentes --sin-opensanctions --sin-ofac --dncp-masivo 2020-2026`
 
 ## Para investigar un proveedor
 Usar la skill `due-diligence-proveedores`. Las reglas de oro están ahí y se aplican también en

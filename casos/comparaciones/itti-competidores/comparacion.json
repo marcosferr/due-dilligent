@@ -1,0 +1,766 @@
+{
+ "anios_cargados": [
+  2022,
+  2023,
+  2024,
+  2025,
+  2026
+ ],
+ "periodo": {
+  "desde": 2022,
+  "hasta": null
+ },
+ "perfiles": [
+  {
+   "ruc": "80028355-4",
+   "nombre": "ITTI S.A.E.",
+   "periodo": {
+    "desde": 2022,
+    "hasta": null
+   },
+   "escala": {
+    "adjudicaciones": 33,
+    "procesos": 33,
+    "monto_adjudicado_pyg": 43873327002,
+    "monto_medio_por_adjudicacion_pyg": 1329494758,
+    "por_anio": {
+     "2022": {
+      "adjudicaciones": 9,
+      "monto_pyg": 13663126843
+     },
+     "2023": {
+      "adjudicaciones": 14,
+      "monto_pyg": 11942992183
+     },
+     "2024": {
+      "adjudicaciones": 5,
+      "monto_pyg": 7960000000
+     },
+     "2025": {
+      "adjudicaciones": 3,
+      "monto_pyg": 9305270466
+     },
+     "2026": {
+      "adjudicaciones": 2,
+      "monto_pyg": 1001937510
+     }
+    },
+    "primer_anio": 2022,
+    "ultimo_anio": 2026,
+    "anios_con_adjudicaciones": 5
+   },
+   "dependencia": {
+    "convocantes_distintos": 19,
+    "principal_convocante": "Banco Nacional de Fomento (BNF)",
+    "pct_monto_principal_convocante": 54.3
+   },
+   "modalidad": {
+    "pct_monto_no_competitivo": 5.5,
+    "detalle": {
+     "Licitación Pública Nacional": {
+      "adjudicaciones": 10,
+      "monto_pyg": 26850109340
+     },
+     "Selección cuando el presupuesto es fijo": {
+      "adjudicaciones": 1,
+      "monto_pyg": 8000045122
+     },
+     "Concurso de Ofertas": {
+      "adjudicaciones": 10,
+      "monto_pyg": 3873698128
+     },
+     "Contratación por Excepción": {
+      "adjudicaciones": 2,
+      "monto_pyg": 1890668558
+     },
+     "CVE con difusión previa": {
+      "adjudicaciones": 1,
+      "monto_pyg": 1035225344
+     },
+     "Selección basada en la calidad y el costo": {
+      "adjudicaciones": 1,
+      "monto_pyg": 902616000
+     },
+     "Contratación Directa": {
+      "adjudicaciones": 5,
+      "monto_pyg": 511643000
+     },
+     "Menor cuantía nacional": {
+      "adjudicaciones": 1,
+      "monto_pyg": 440000000
+     },
+     "Subasta a la baja electrónica nacional": {
+      "adjudicaciones": 2,
+      "monto_pyg": 369321510
+     }
+    }
+   },
+   "competencia": {
+    "procesos_competitivos_con_dato": 23,
+    "pct_oferente_unico": 26.1,
+    "oferente_unico_ocids": [
+     "ocds-03ad3f-418720-1",
+     "ocds-03ad3f-434708-1",
+     "ocds-03ad3f-408769-1",
+     "ocds-03ad3f-464410-1",
+     "ocds-03ad3f-411587-1",
+     "ocds-03ad3f-409597-1"
+    ]
+   },
+   "precio": {
+    "procesos_comparables": 24,
+    "mediana_adjudicado_sobre_estimado": 1.0,
+    "pct_por_encima_del_estimado": 8.3
+   },
+   "ejecucion": {
+    "contratos": 32,
+    "monto_contratado_pyg": 43833327002,
+    "pagos": 438,
+    "monto_pagado_pyg": 26792776407,
+    "pct_pagado_de_lo_contratado": 58.1,
+    "mediana_dias_solicitud_a_pago": 12.0
+   },
+   "perfil_dncp": {
+    "razon_social": "ITTI S.A.E.",
+    "tamano_declarado": "Sin categorizar",
+    "tipo_persona": "S.A.E.",
+    "categorias": [
+     "Consultorías, Asesorías e Investigaciones. Estudios y Proyectos de inversión",
+     "Adquisición y Locación de inmuebles. Alquiler de muebles"
+    ],
+    "sanciones": 0,
+    "inhabilitaciones": 0,
+    "inhabilitacion_vigente": false
+   }
+  },
+  {
+   "ruc": "80001490-1",
+   "nombre": "J. FLEISCHMAN SAECA absorbido por ITTI S.A.E.C.A ",
+   "periodo": {
+    "desde": 2022,
+    "hasta": null
+   },
+   "escala": {
+    "adjudicaciones": 11,
+    "procesos": 11,
+    "monto_adjudicado_pyg": 3566990013,
+    "monto_medio_por_adjudicacion_pyg": 324271819,
+    "por_anio": {
+     "2022": {
+      "adjudicaciones": 11,
+      "monto_pyg": 3566990013
+     }
+    },
+    "primer_anio": 2022,
+    "ultimo_anio": 2022,
+    "anios_con_adjudicaciones": 1
+   },
+   "dependencia": {
+    "convocantes_distintos": 9,
+    "principal_convocante": "Dirección Nacional de Ingresos Tributarios (DNIT)",
+    "pct_monto_principal_convocante": 30.9
+   },
+   "modalidad": {
+    "pct_monto_no_competitivo": 9.4,
+    "detalle": {
+     "Concurso de Ofertas": {
+      "adjudicaciones": 6,
+      "monto_pyg": 2931167513
+     },
+     "Contratación Directa": {
+      "adjudicaciones": 4,
+      "monto_pyg": 333970000
+     },
+     "Licitación Pública Nacional": {
+      "adjudicaciones": 1,
+      "monto_pyg": 301852500
+     }
+    }
+   },
+   "competencia": {
+    "procesos_competitivos_con_dato": 7,
+    "pct_oferente_unico": 14.3,
+    "oferente_unico_ocids": [
+     "ocds-03ad3f-411996-1"
+    ]
+   },
+   "precio": {
+    "procesos_comparables": 5,
+    "mediana_adjudicado_sobre_estimado": 1.0,
+    "pct_por_encima_del_estimado": 0.0
+   },
+   "ejecucion": {
+    "contratos": 11,
+    "monto_contratado_pyg": 3566990013,
+    "pagos": 263,
+    "monto_pagado_pyg": 10850979478,
+    "pct_pagado_de_lo_contratado": 105.1,
+    "mediana_dias_solicitud_a_pago": 6.0
+   },
+   "perfil_dncp": {
+    "razon_social": "J. FLEISCHMAN SAECA absorbido por ITTI S.A.E.C.A ",
+    "tamano_declarado": "Micro",
+    "tipo_persona": "S.A.E.C.A.",
+    "categorias": [
+     "Adquisición y Locación de inmuebles. Alquiler de muebles",
+     "Equipos, accesorios y programas computacionales, de oficina, educativos, de imprenta, de comunicación y señalamiento",
+     "Servicios Técnicos",
+     "Utiles de oficina, Productos de papel y cartón e impresos"
+    ],
+    "sanciones": 1,
+    "inhabilitaciones": 0,
+    "inhabilitacion_vigente": false
+   }
+  },
+  {
+   "ruc": "80027374-5",
+   "nombre": "KONECTA SA ",
+   "periodo": {
+    "desde": 2022,
+    "hasta": null
+   },
+   "escala": {
+    "adjudicaciones": 24,
+    "procesos": 24,
+    "monto_adjudicado_pyg": 47663356622,
+    "monto_medio_por_adjudicacion_pyg": 1985973193,
+    "por_anio": {
+     "2022": {
+      "adjudicaciones": 4,
+      "monto_pyg": 23409354000
+     },
+     "2023": {
+      "adjudicaciones": 6,
+      "monto_pyg": 4909007500
+     },
+     "2024": {
+      "adjudicaciones": 3,
+      "monto_pyg": 3984904000
+     },
+     "2025": {
+      "adjudicaciones": 7,
+      "monto_pyg": 11206147122
+     },
+     "2026": {
+      "adjudicaciones": 4,
+      "monto_pyg": 4153944000
+     }
+    },
+    "primer_anio": 2022,
+    "ultimo_anio": 2026,
+    "anios_con_adjudicaciones": 5
+   },
+   "dependencia": {
+    "convocantes_distintos": 9,
+    "principal_convocante": "Ministerio de Tecnologías de la Información y Comunicación (MITIC)",
+    "pct_monto_principal_convocante": 44.8
+   },
+   "modalidad": {
+    "pct_monto_no_competitivo": 0.0,
+    "detalle": {
+     "Selección basada en la calidad y el costo ": {
+      "adjudicaciones": 2,
+      "monto_pyg": 21060264000
+     },
+     "Licitación Pública Nacional": {
+      "adjudicaciones": 9,
+      "monto_pyg": 13203216000
+     },
+     "Selección cuando el presupuesto es fijo": {
+      "adjudicaciones": 1,
+      "monto_pyg": 8000045122
+     },
+     "Menor cuantía nacional": {
+      "adjudicaciones": 7,
+      "monto_pyg": 3021084000
+     },
+     "Concurso de Ofertas": {
+      "adjudicaciones": 4,
+      "monto_pyg": 1658747500
+     },
+     "BID - Selección Basada en Calificación de Consultores": {
+      "adjudicaciones": 1,
+      "monto_pyg": 720000000
+     }
+    }
+   },
+   "competencia": {
+    "procesos_competitivos_con_dato": 22,
+    "pct_oferente_unico": 72.7,
+    "oferente_unico_ocids": [
+     "ocds-03ad3f-410825-1",
+     "ocds-03ad3f-444535-1",
+     "ocds-03ad3f-443855-1",
+     "ocds-03ad3f-403775-1",
+     "ocds-03ad3f-460563-1",
+     "ocds-03ad3f-425900-1",
+     "ocds-03ad3f-425291-1",
+     "ocds-03ad3f-467341-1",
+     "ocds-03ad3f-470994-1",
+     "ocds-03ad3f-467297-1",
+     "ocds-03ad3f-475074-1",
+     "ocds-03ad3f-407284-1",
+     "ocds-03ad3f-425263-1",
+     "ocds-03ad3f-457195-1",
+     "ocds-03ad3f-487334-1",
+     "ocds-03ad3f-474664-1"
+    ]
+   },
+   "precio": {
+    "procesos_comparables": 20,
+    "mediana_adjudicado_sobre_estimado": 1.0,
+    "pct_por_encima_del_estimado": 10.0
+   },
+   "ejecucion": {
+    "contratos": 22,
+    "monto_contratado_pyg": 45134156622,
+    "pagos": 416,
+    "monto_pagado_pyg": 35348787846,
+    "pct_pagado_de_lo_contratado": 47.9,
+    "mediana_dias_solicitud_a_pago": 0.0
+   },
+   "perfil_dncp": {
+    "razon_social": "KONECTA SA ",
+    "tamano_declarado": "Sin categorizar",
+    "tipo_persona": "S.A.",
+    "categorias": [
+     "Capacitaciones y Adiestramientos",
+     "Consultorías, Asesorías e Investigaciones. Estudios y Proyectos de inversión",
+     "Equipos, accesorios y programas computacionales, de oficina, educativos, de imprenta, de comunicación y señalamiento",
+     "Servicios Técnicos"
+    ],
+    "sanciones": 0,
+    "inhabilitaciones": 0,
+    "inhabilitacion_vigente": false
+   }
+  },
+  {
+   "ruc": "80089752-8",
+   "nombre": "ROSHKA S.A.",
+   "periodo": {
+    "desde": 2022,
+    "hasta": null
+   },
+   "escala": {
+    "adjudicaciones": 4,
+    "procesos": 4,
+    "monto_adjudicado_pyg": 9296097153,
+    "monto_medio_por_adjudicacion_pyg": 2324024288,
+    "por_anio": {
+     "2022": {
+      "adjudicaciones": 2,
+      "monto_pyg": 1129320551
+     },
+     "2024": {
+      "adjudicaciones": 1,
+      "monto_pyg": 166731480
+     },
+     "2025": {
+      "adjudicaciones": 1,
+      "monto_pyg": 8000045122
+     }
+    },
+    "primer_anio": 2022,
+    "ultimo_anio": 2025,
+    "anios_con_adjudicaciones": 3
+   },
+   "dependencia": {
+    "convocantes_distintos": 3,
+    "principal_convocante": "Ministerio de Tecnologías de la Información y Comunicación (MITIC)",
+    "pct_monto_principal_convocante": 86.1
+   },
+   "modalidad": {
+    "pct_monto_no_competitivo": 1.4,
+    "detalle": {
+     "Selección cuando el presupuesto es fijo": {
+      "adjudicaciones": 1,
+      "monto_pyg": 8000045122
+     },
+     "Licitación Pública Nacional": {
+      "adjudicaciones": 1,
+      "monto_pyg": 1000000000
+     },
+     "Menor cuantía nacional": {
+      "adjudicaciones": 1,
+      "monto_pyg": 166731480
+     },
+     "Contratación Directa": {
+      "adjudicaciones": 1,
+      "monto_pyg": 129320551
+     }
+    }
+   },
+   "competencia": {
+    "procesos_competitivos_con_dato": 2,
+    "pct_oferente_unico": 100.0,
+    "oferente_unico_ocids": [
+     "ocds-03ad3f-403938-1",
+     "ocds-03ad3f-443184-1"
+    ]
+   },
+   "precio": {
+    "procesos_comparables": 3,
+    "mediana_adjudicado_sobre_estimado": 1.0,
+    "pct_por_encima_del_estimado": 0.0
+   },
+   "ejecucion": {
+    "contratos": 4,
+    "monto_contratado_pyg": 9296097153,
+    "pagos": 108,
+    "monto_pagado_pyg": 4245296258,
+    "pct_pagado_de_lo_contratado": 14.5,
+    "mediana_dias_solicitud_a_pago": 3.0
+   },
+   "perfil_dncp": {
+    "razon_social": "ROSHKA S.A.",
+    "tamano_declarado": "Sin categorizar",
+    "tipo_persona": "S.A.",
+    "categorias": [
+     "Servicios Técnicos"
+    ],
+    "sanciones": 0,
+    "inhabilitaciones": 0,
+    "inhabilitacion_vigente": false
+   }
+  },
+  {
+   "ruc": "80013889-9",
+   "nombre": "DATA SYSTEMS SA EMISORA DE CAPITAL ABIERTO",
+   "periodo": {
+    "desde": 2022,
+    "hasta": null
+   },
+   "escala": {
+    "adjudicaciones": 780,
+    "procesos": 778,
+    "monto_adjudicado_pyg": 357373814203,
+    "monto_medio_por_adjudicacion_pyg": 458171557,
+    "por_anio": {
+     "2022": {
+      "adjudicaciones": 214,
+      "monto_pyg": 61148449869
+     },
+     "2023": {
+      "adjudicaciones": 177,
+      "monto_pyg": 77229143153
+     },
+     "2024": {
+      "adjudicaciones": 164,
+      "monto_pyg": 74425450094
+     },
+     "2025": {
+      "adjudicaciones": 158,
+      "monto_pyg": 84086270840
+     },
+     "2026": {
+      "adjudicaciones": 67,
+      "monto_pyg": 60484500247
+     }
+    },
+    "primer_anio": 2022,
+    "ultimo_anio": 2026,
+    "anios_con_adjudicaciones": 5
+   },
+   "dependencia": {
+    "convocantes_distintos": 137,
+    "principal_convocante": "Dirección Nacional de Ingresos Tributarios / Dirección Nacional de Ingresos Tributarios",
+    "pct_monto_principal_convocante": 43.0
+   },
+   "modalidad": {
+    "pct_monto_no_competitivo": 3.1,
+    "detalle": {
+     "Licitación Pública Nacional": {
+      "adjudicaciones": 135,
+      "monto_pyg": 281683500097
+     },
+     "Concurso de Ofertas": {
+      "adjudicaciones": 115,
+      "monto_pyg": 21329581543
+     },
+     "Menor cuantía nacional": {
+      "adjudicaciones": 271,
+      "monto_pyg": 20387555074
+     },
+     "Contratación Directa": {
+      "adjudicaciones": 224,
+      "monto_pyg": 8963689549
+     },
+     "BID - Licitación Internacional": {
+      "adjudicaciones": 2,
+      "monto_pyg": 7989120000
+     },
+     "Subasta a la baja electrónica nacional": {
+      "adjudicaciones": 10,
+      "monto_pyg": 7498293067
+     },
+     "BM - Licitación Pública Internacional - LPI": {
+      "adjudicaciones": 1,
+      "monto_pyg": 3217740000
+     },
+     "Contratación por Excepción": {
+      "adjudicaciones": 1,
+      "monto_pyg": 1885730250
+     },
+     "BID - Concurso de Ofertas (CO/CP)": {
+      "adjudicaciones": 3,
+      "monto_pyg": 1583239114
+     },
+     "BID - Comparación de Precios": {
+      "adjudicaciones": 7,
+      "monto_pyg": 1447938341
+     },
+     "BM - Licitación Pública Nacional - LPN": {
+      "adjudicaciones": 2,
+      "monto_pyg": 484415040
+     },
+     "BM - Comparación de Precios": {
+      "adjudicaciones": 1,
+      "monto_pyg": 472800000
+     },
+     "BID - Licitación Pública Nacional": {
+      "adjudicaciones": 1,
+      "monto_pyg": 129888000
+     },
+     "CD_SBE_DNCP_BID - CONTRATACIÓN DIRECTA POR SBE SISTEMA NACIONAL BID PARA BIENES COMUNES": {
+      "adjudicaciones": 2,
+      "monto_pyg": 124409000
+     },
+     "BM - Contratación Directa - CD": {
+      "adjudicaciones": 1,
+      "monto_pyg": 67879460
+     },
+     "BM - Concurso de Ofertas - CO": {
+      "adjudicaciones": 2,
+      "monto_pyg": 62165225
+     },
+     "BID - Contratación Directa (CD/SD)": {
+      "adjudicaciones": 2,
+      "monto_pyg": 45870443
+     }
+    }
+   },
+   "competencia": {
+    "procesos_competitivos_con_dato": 502,
+    "pct_oferente_unico": 23.9,
+    "oferente_unico_ocids": [
+     "ocds-03ad3f-409677-1",
+     "ocds-03ad3f-409896-1",
+     "ocds-03ad3f-415584-1",
+     "ocds-03ad3f-417236-1",
+     "ocds-03ad3f-419723-1",
+     "ocds-03ad3f-418730-1",
+     "ocds-03ad3f-409050-1",
+     "ocds-03ad3f-410820-1",
+     "ocds-03ad3f-428223-1",
+     "ocds-03ad3f-426236-1",
+     "ocds-03ad3f-418786-1",
+     "ocds-03ad3f-420969-1",
+     "ocds-03ad3f-404697-1",
+     "ocds-03ad3f-405698-1",
+     "ocds-03ad3f-421728-2",
+     "ocds-03ad3f-429471-1",
+     "ocds-03ad3f-413024-1",
+     "ocds-03ad3f-412740-1",
+     "ocds-03ad3f-426475-1",
+     "ocds-03ad3f-434573-1"
+    ]
+   },
+   "precio": {
+    "procesos_comparables": 286,
+    "mediana_adjudicado_sobre_estimado": 1.0,
+    "pct_por_encima_del_estimado": 6.6
+   },
+   "ejecucion": {
+    "contratos": 763,
+    "monto_contratado_pyg": 356499387980,
+    "pagos": 5308,
+    "monto_pagado_pyg": 270135699019,
+    "pct_pagado_de_lo_contratado": 61.5,
+    "mediana_dias_solicitud_a_pago": 12.0
+   },
+   "perfil_dncp": {
+    "razon_social": "DATA SYSTEMS SA EMISORA DE CAPITAL ABIERTO",
+    "tamano_declarado": "Sin categorizar",
+    "tipo_persona": "S.A.E.C.A.",
+    "categorias": [
+     "Servicios Técnicos",
+     "Utiles de oficina, Productos de papel y cartón e impresos",
+     "Servicios de Limpiezas, Mantenimientos y reparaciones menores y mayores de Instalaciones, Maquinarias y Vehículos",
+     "Equipos, accesorios y programas computacionales, de oficina, educativos, de imprenta, de comunicación y señalamiento"
+    ],
+    "sanciones": 5,
+    "inhabilitaciones": 0,
+    "inhabilitacion_vigente": false
+   }
+  }
+ ],
+ "tabla": [
+  [
+   "Nombre",
+   "ITTI S.A.E.",
+   "J. FLEISCHMAN SAECA absorbido por ITTI S.A.E.C.A ",
+   "KONECTA SA ",
+   "ROSHKA S.A.",
+   "DATA SYSTEMS SA EMISORA DE CAPITAL ABIERTO"
+  ],
+  [
+   "Tamaño declarado (DNCP)",
+   "Sin categorizar",
+   "Micro",
+   "Sin categorizar",
+   "Sin categorizar",
+   "Sin categorizar"
+  ],
+  [
+   "Adjudicaciones",
+   "33",
+   "11",
+   "24",
+   "4",
+   "780"
+  ],
+  [
+   "Monto adjudicado (M PYG)",
+   "43.873,3",
+   "3.567,0",
+   "47.663,4",
+   "9.296,1",
+   "357.373,8"
+  ],
+  [
+   "Monto medio por adjudicación (M PYG)",
+   "1.329,5",
+   "324,3",
+   "1.986,0",
+   "2.324,0",
+   "458,2"
+  ],
+  [
+   "Años con adjudicaciones",
+   "5",
+   "1",
+   "5",
+   "3",
+   "5"
+  ],
+  [
+   "Primer / último año",
+   "2022 / 2026",
+   "2022 / 2022",
+   "2022 / 2026",
+   "2022 / 2025",
+   "2022 / 2026"
+  ],
+  [
+   "Convocantes distintos",
+   "19",
+   "9",
+   "9",
+   "3",
+   "137"
+  ],
+  [
+   "% del monto con el principal convocante",
+   "54,3",
+   "30,9",
+   "44,8",
+   "86,1",
+   "43,0"
+  ],
+  [
+   "Principal convocante",
+   "Banco Nacional de Fomento (BNF)",
+   "Dirección Nacional de Ingresos Tributarios (DNIT)",
+   "Ministerio de Tecnologías de la Información y Comunicación (MITIC)",
+   "Ministerio de Tecnologías de la Información y Comunicación (MITIC)",
+   "Dirección Nacional de Ingresos Tributarios / Dirección Nacional de Ingresos Tributarios"
+  ],
+  [
+   "% del monto en modalidades no competitivas",
+   "5,5",
+   "9,4",
+   "0,0",
+   "1,4",
+   "3,1"
+  ],
+  [
+   "% de procesos competitivos con oferente único",
+   "26,1",
+   "14,3",
+   "72,7",
+   "100,0",
+   "23,9"
+  ],
+  [
+   "Mediana adjudicado / estimado",
+   "1,0",
+   "1,0",
+   "1,0",
+   "1,0",
+   "1,0"
+  ],
+  [
+   "% adjudicado por encima del estimado",
+   "8,3",
+   "0,0",
+   "10,0",
+   "0,0",
+   "6,6"
+  ],
+  [
+   "Monto contratado (M PYG)",
+   "43.833,3",
+   "3.567,0",
+   "45.134,2",
+   "9.296,1",
+   "356.499,4"
+  ],
+  [
+   "Monto pagado (M PYG)",
+   "26.792,8",
+   "10.851,0",
+   "35.348,8",
+   "4.245,3",
+   "270.135,7"
+  ],
+  [
+   "% pagado de lo contratado",
+   "58,1",
+   "105,1",
+   "47,9",
+   "14,5",
+   "61,5"
+  ],
+  [
+   "Mediana de días solicitud → pago",
+   "12,0",
+   "6,0",
+   "0,0",
+   "3,0",
+   "12,0"
+  ],
+  [
+   "Sanciones DNCP (inhabilitaciones)",
+   "0 (0)",
+   "1 (0)",
+   "0 (0)",
+   "0 (0)",
+   "5 (0)"
+  ],
+  [
+   "Inhabilitación vigente",
+   "no",
+   "no",
+   "no",
+   "no",
+   "no"
+  ]
+ ],
+ "rucs": [
+  "80028355-4",
+  "80001490-1",
+  "80027374-5",
+  "80089752-8",
+  "80013889-9"
+ ]
+}

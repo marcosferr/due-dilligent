@@ -6,6 +6,8 @@
     uv run dd caso resumen 1
     uv run dd ficha 1
     uv run dd evaluar 1 eval/referencia/integralis.json
+    uv run dd descargar-fuentes --dncp-masivo 2020-2026 [--items RUC ...]
+    uv run dd comparar 80028355-4 80027374-5 --desde 2022 --salida casos/comparaciones/itti
 """
 
 from __future__ import annotations
@@ -54,6 +56,13 @@ def cmd_descargar(args: argparse.Namespace) -> None:
     if args.dnit:
         print("DNIT – listado de RUC (10 archivos):")
         print(f"  {registros.descargar_dnit():,} RUC indexados")
+    if args.dncp_masivo:
+        from . import masivo
+
+        desde, _, hasta = args.dncp_masivo.partition("-")
+        for anio in range(int(desde), int(hasta or desde) + 1):
+            print(f"DNCP masivo {anio} (solo los CSV necesarios, por rango HTTP)…", flush=True)
+            print("  ", masivo.cargar_anio(anio, contratos=not args.sin_contratos, items_rucs=args.items))
 
 
 def cmd_salud(_: argparse.Namespace) -> None:
@@ -92,6 +101,20 @@ def cmd_ficha(args: argparse.Namespace) -> None:
     print(ficha.exportar_caso(args.caso_id))
 
 
+def cmd_comparar(args: argparse.Namespace) -> None:
+    from . import perfil
+
+    comp = perfil.comparar(args.rucs, args.desde, args.hasta, con_api=not args.sin_api)
+    md = perfil.a_markdown(comp)
+    if args.salida:
+        salida = Path(args.salida)
+        salida.mkdir(parents=True, exist_ok=True)
+        (salida / "comparacion.md").write_text(md, encoding="utf-8")
+        (salida / "comparacion.json").write_text(json.dumps(comp, ensure_ascii=False, indent=1), encoding="utf-8")
+        print(f"→ {salida}/comparacion.md y comparacion.json")
+    print(md)
+
+
 def cmd_evaluar(args: argparse.Namespace) -> None:
     from .evaluacion import evaluar
 
@@ -105,6 +128,9 @@ def main(argv: list[str] | None = None) -> None:
     d.add_argument("--dnit", action="store_true", help="También el listado de RUC de la DNIT (~40 MB)")
     d.add_argument("--sin-opensanctions", action="store_true")
     d.add_argument("--sin-ofac", action="store_true")
+    d.add_argument("--dncp-masivo", metavar="AÑOS", help="Datos masivos OCDS de la DNCP, p. ej. 2020-2026")
+    d.add_argument("--sin-contratos", action="store_true", help="Con --dncp-masivo: solo adjudicaciones")
+    d.add_argument("--items", nargs="*", metavar="RUC", help="Con --dncp-masivo: ítems con precio de estos RUC")
     d.set_defaults(func=cmd_descargar)
     sub.add_parser("salud", help="Prueba mínima de cada fuente").set_defaults(func=cmd_salud)
     c = sub.add_parser("caso", help="Crear un caso o ver su resumen")
@@ -115,6 +141,13 @@ def main(argv: list[str] | None = None) -> None:
     f.add_argument("caso_id", type=int)
     f.add_argument("--resumen", help="Archivo de texto con el resumen (cada línea cita [H-n])")
     f.set_defaults(func=cmd_ficha)
+    k = sub.add_parser("comparar", help="Tabla comparativa de varios proveedores (datos masivos DNCP)")
+    k.add_argument("rucs", nargs="+")
+    k.add_argument("--desde", type=int)
+    k.add_argument("--hasta", type=int)
+    k.add_argument("--salida", help="Carpeta donde guardar comparacion.md y comparacion.json")
+    k.add_argument("--sin-api", action="store_true", help="No consultar tamaño y sanciones en la API")
+    k.set_defaults(func=cmd_comparar)
     e = sub.add_parser("evaluar", help="Comparar un caso con la respuesta de referencia")
     e.add_argument("caso_id", type=int)
     e.add_argument("referencia")

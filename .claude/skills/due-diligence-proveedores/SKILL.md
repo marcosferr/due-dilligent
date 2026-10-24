@@ -70,6 +70,10 @@ Con todo recolectado, aplicar la skill `dd-cruces`: llaves compartidas (`llaves_
 también `entre_casos=true`), vínculos persona–entidad con su hallazgo (`agregar_vinculo`),
 competidores que comparten datos de contacto.
 
+## 5b. Comparación (si hay varios proveedores o piden contexto de escala)
+Aplicar `dd-comparacion-proveedores`: histórico de montos, tamaño declarado, dependencia de un
+convocante, oferente único, pagos. Se registra como `contexto`; no mueve el semáforo.
+
 ## 6. Ficha
 Aplicar la skill `dd-ficha`: revisar `resumen_caso`, cerrar pendientes (hallazgos sin captura,
 posibles alertas a verificar) y llamar `generar_ficha(caso_id, resumen)` con un resumen donde

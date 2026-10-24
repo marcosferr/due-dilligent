@@ -6,7 +6,7 @@ from typing import Any
 
 from mcp.server.mcpserver import MCPServer
 
-from ..dncp import FUENTE, ClienteDNCP
+from ..dncp import BASE_URL, FUENTE, ClienteDNCP
 from ..http import ErrorFuente
 from ._comun import SOLO_LECTURA, consulta_fallida, consulta_ok
 
@@ -105,6 +105,94 @@ def buscar_convocantes(caso_id: int, nombre: str, pagina: int = 1) -> dict[str, 
     """Busca entidades convocantes (organismos del Estado) por nombre."""
     return _ejecutar(caso_id, f"search/procuringEntities name={nombre!r} p{pagina}",
                      lambda c: c.buscar_convocantes(nombre, pagina), lambda d: len(d["convocantes"]))
+
+
+# --- comparación de proveedores (datos masivos) -------------------------------------------
+
+def _masivo_o_brecha(caso_id: int, texto: str):
+    from .. import masivo
+
+    est = masivo.estado()
+    if not est["disponible"]:
+        return None, consulta_fallida(caso_id, "DNCP datos masivos OCDS", texto, est["detalle"],
+                                      url=masivo.BASE, modo_acceso="descarga")
+    return est, None
+
+
+@servidor.tool(annotations=SOLO_LECTURA)
+def estado_datos_masivos() -> dict[str, Any]:
+    """Años y tablas de los datos masivos OCDS de la DNCP cargados localmente (base de la comparación)."""
+    from .. import masivo
+
+    est = masivo.estado()
+    est.pop("cargas", None)
+    return est
+
+
+@servidor.tool(annotations=SOLO_LECTURA)
+def perfil_proveedor(caso_id: int, ruc: str, desde: int | None = None, hasta: int | None = None) -> dict[str, Any]:
+    """Indicadores de un proveedor desde los datos masivos: monto adjudicado por año, dependencia del
+    principal convocante, modalidades no competitivas, oferente único, adjudicado/estimado, contratado,
+    pagado y demora de pago. Contexto para comparar, no conclusión."""
+    from .. import masivo, perfil
+
+    texto = f"perfil_proveedor ruc={ruc} desde={desde} hasta={hasta}"
+    est, brecha = _masivo_o_brecha(caso_id, texto)
+    if brecha:
+        return brecha
+    con = masivo.conectar()
+    try:
+        p = perfil.perfil(con, ruc, desde, hasta)
+    finally:
+        con.close()
+    p["competencia"]["oferente_unico_ocids"] = p["competencia"]["oferente_unico_ocids"][:10]
+    url = f"{masivo.BASE} (años {est['anios']}); verificar en {BASE_URL}/search/processes?awards.suppliers.id={ruc}"
+    return consulta_ok(caso_id, "DNCP datos masivos OCDS", texto, None, p["escala"]["adjudicaciones"], p,
+                       modo_acceso="descarga", url=url)
+
+
+@servidor.tool(annotations=SOLO_LECTURA)
+def comparar_proveedores(caso_id: int, rucs: list[str], desde: int | None = None,
+                         hasta: int | None = None) -> dict[str, Any]:
+    """Tabla comparativa de varios proveedores (2 a 10 RUC) con los indicadores de perfil_proveedor más
+    tamaño declarado y sanciones de la API. Devuelve la tabla y el Markdown listo para la ficha."""
+    from .. import perfil
+
+    texto = f"comparar_proveedores rucs={rucs} desde={desde} hasta={hasta}"
+    est, brecha = _masivo_o_brecha(caso_id, texto)
+    if brecha:
+        return brecha
+    comp = perfil.comparar(rucs[:10], desde, hasta, con_api=cliente().modo_acceso != "mock")
+    salida = {"anios_cargados": comp["anios_cargados"], "tabla": comp["tabla"], "markdown": perfil.a_markdown(comp)}
+    return consulta_ok(caso_id, "DNCP datos masivos OCDS", texto, None, len(comp["perfiles"]), salida,
+                       modo_acceso="descarga", url=f"{masivo_base()} (años {est['anios']})")
+
+
+@servidor.tool(annotations=SOLO_LECTURA)
+def precios_vs_mercado(caso_id: int, ruc: str, minimo_comparables: int = 5) -> dict[str, Any]:
+    """Precio unitario de los ítems adjudicados al proveedor frente a la mediana del mismo código de
+    catálogo y unidad entre los ítems cargados. Requiere cargar ítems (--items o sin filtro)."""
+    from .. import masivo, perfil
+
+    texto = f"precios_vs_mercado ruc={ruc}"
+    est, brecha = _masivo_o_brecha(caso_id, texto)
+    if brecha:
+        return brecha
+    con = masivo.conectar()
+    try:
+        filas = perfil.precios_vs_mercado(con, ruc, minimo_comparables)
+    finally:
+        con.close()
+    resultado = {"items_comparados": len(filas), "mas_caros": filas[:10], "mas_baratos": filas[-5:][::-1],
+                 "nota": "La mediana usa solo los ítems cargados; ver `comparables` en cada fila."}
+    return consulta_ok(caso_id, "DNCP datos masivos OCDS (ítems)", texto, None, len(filas), resultado,
+                       modo_acceso="descarga", url=f"{masivo_base()} (años {est['anios']})")
+
+
+def masivo_base() -> str:
+    from .. import masivo
+
+    return masivo.BASE
 
 
 def main() -> None:
