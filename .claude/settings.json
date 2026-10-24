@@ -1,0 +1,16 @@
+{
+  "enableAllProjectMcpServers": true,
+  "permissions": {
+    "allow": [
+      "mcp__dd-dncp",
+      "mcp__dd-sanciones",
+      "mcp__dd-registros",
+      "mcp__dd-evidencia",
+      "mcp__dd-grafo",
+      "WebSearch",
+      "Bash(uv run dd:*)",
+      "Bash(uv run pytest:*)",
+      "Bash(uv run python .claude/skills/*)"
+    ]
+  }
+}

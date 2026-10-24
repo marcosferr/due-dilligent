@@ -1,0 +1,5 @@
+"id","schema","name","aliases","birth_date","countries","addresses","identifiers","sanctions","phones","emails","program_ids","dataset","first_seen","last_seen","last_change"
+"demo-001","Company","BETA FICTICIA S.R.L.","BETA FICTICIA","","py","Avenida Imaginaria 456","80900002-4","Inhabilitación ficticia de prueba","","","","DEMO-FICTICIO","2026-01-01","2026-10-01","2026-10-01"
+"demo-002","Company","ALFA FICTICIA TRADING LTD","ALFA FICTICIA","","pa","","PA-000-FICTICIO","Sanción ficticia de prueba (homónimo, otra entidad)","","","","DEMO-FICTICIO","2026-01-01","2026-10-01","2026-10-01"
+"demo-003","Person","JUAN EJEMPLO FICTICIO","J. EJEMPLO FICTICIO","1970-01-01","py","","","PEP ficticio de prueba","","","","DEMO-FICTICIO","2026-01-01","2026-10-01","2026-10-01"
+"demo-004","Company","DELTA INEXISTENTE CORP","","","us","","US-DEMO-999","Exclusión ficticia de prueba","","","","DEMO-FICTICIO","2026-01-01","2026-10-01","2026-10-01"

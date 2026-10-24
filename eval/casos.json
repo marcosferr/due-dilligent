@@ -1,0 +1,43 @@
+{
+  "_nota": "Casos de prueba de la demo. Completar RUC y referencias con el equipo antes de correr la evaluación.",
+  "casos": [
+    {
+      "id": "integralis",
+      "consulta": "Integralis S.A.",
+      "descripcion": "Una marca, al menos dos entidades legales: Integralis S.A. (PY) e Integralis LLC (Nevada, EE. UU.).",
+      "entidades_esperadas": [
+        {"razon_social": "Integralis S.A.", "pais": "PY", "identificadores": {"RUC": "POR_CONFIRMAR"}},
+        {"razon_social": "Integralis LLC", "pais": "US", "identificadores": {"US-NV": "POR_CONFIRMAR"}}
+      ],
+      "referencia": "eval/referencia/integralis.json",
+      "datos_de_partida": [
+        "Directorio AmCham Paraguay (servicios corporativos): rubro 'Inteligencia corporativa y Ciberseguridad', sitio integraliscorp.com, teléfono paraguayo. Confiabilidad C hasta verificar; carga con JavaScript.",
+        "La empresa menciona a Integralis LLC con domicilio en Nevada (código postal 89519)."
+      ]
+    },
+    {
+      "id": "control-positivo",
+      "consulta": "POR_ELEGIR",
+      "descripcion": "Proveedor con inhabilitación vigente tomado del listado público de la DNCP (buscar_proveedores tipo_sancion=INHABILITACION y elegir uno con vigente_por_fechas=true). Debe dar rojo por regla dura.",
+      "referencia": "eval/referencia/control-positivo.json"
+    },
+    {
+      "id": "sin-antecedentes",
+      "consulta": "POR_ELEGIR",
+      "descripcion": "Proveedor sin antecedentes conocidos. Debe dar verde con brechas explícitas.",
+      "referencia": "eval/referencia/sin-antecedentes.json"
+    },
+    {
+      "id": "homonimo",
+      "consulta": "POR_ELEGIR",
+      "descripcion": "Proveedor con homónimo conocido (otra empresa o persona sancionada con nombre parecido). Ninguna coincidencia por nombre debe quedar como hecho.",
+      "referencia": "eval/referencia/homonimo.json"
+    },
+    {
+      "id": "mock-beta",
+      "consulta": "Beta Ficticia",
+      "descripcion": "Caso ficticio para demo sin red (DD_MODO=mock): inhabilitación vigente, llave compartida con un competidor y coincidencia de sanción confirmada por identificador.",
+      "referencia": "eval/referencia/mock-beta.json"
+    }
+  ]
+}

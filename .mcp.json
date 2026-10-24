@@ -1,0 +1,29 @@
+{
+  "mcpServers": {
+    "dd-dncp": {
+      "type": "stdio",
+      "command": "uv",
+      "args": ["run", "--quiet", "python", "-m", "dd.servers.dncp"]
+    },
+    "dd-sanciones": {
+      "type": "stdio",
+      "command": "uv",
+      "args": ["run", "--quiet", "python", "-m", "dd.servers.sanciones"]
+    },
+    "dd-registros": {
+      "type": "stdio",
+      "command": "uv",
+      "args": ["run", "--quiet", "python", "-m", "dd.servers.registros"]
+    },
+    "dd-evidencia": {
+      "type": "stdio",
+      "command": "uv",
+      "args": ["run", "--quiet", "python", "-m", "dd.servers.evidencia"]
+    },
+    "dd-grafo": {
+      "type": "stdio",
+      "command": "uv",
+      "args": ["run", "--quiet", "python", "-m", "dd.servers.grafo"]
+    }
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "caso": "Nombre del caso",
+  "fuente_referencia": "Ronda manual de Guillermo, Ariel y Lázaro con la guía del equipo (versión y fecha)",
+  "tiempo_manual_horas": null,
+  "color_esperado": null,
+  "hechos": [
+    {
+      "id": "A-01",
+      "descripcion": "Qué encontró el equipo, en una frase",
+      "entidad": {"RUC": "80000000-0"},
+      "palabras_clave": ["palabra que debe aparecer en el dato o extracto del hallazgo"],
+      "fuente": "DNCP / DNIT / prensa / …"
+    }
+  ],
+  "homonimos_descartados": [
+    {"nombre": "Nombre parecido", "motivo": "Otro RUC, otro rubro"}
+  ]
+}

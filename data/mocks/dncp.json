@@ -1,0 +1,419 @@
+{
+ "_aviso": "DATOS FICTICIOS para demos y pruebas sin red. No representan a ninguna empresa real.",
+ "suppliers": {
+  "80900001-6": {
+   "name": "Alfa Ficticia",
+   "id": "PY-RUC-80900001-6",
+   "identifier": {
+    "id": "80900001-6",
+    "legalName": "ALFA FICTICIA S.A.",
+    "scheme": "PY-RUC"
+   },
+   "contactPoint": {
+    "name": "CONTACTO FICTICIO",
+    "email": "contacto@alfa-ficticia.example",
+    "faxNumber": "",
+    "telephone": "021 000 111"
+   },
+   "details": {
+    "legalEntityTypeDetail": "Persona Jurídica - Bienes y Servicios",
+    "size": "Pequeña",
+    "activityTypes": "services",
+    "categories": [
+     {
+      "name": "Servicios de seguridad y vigilancia",
+      "id": "30"
+     }
+    ],
+    "sanctions": []
+   },
+   "address": {
+    "locality": "Asunción",
+    "region": "Capital",
+    "streetAddress": "Calle Inventada 123",
+    "countryName": "Paraguay"
+   },
+   "date": "2026-09-01T10:00:00-03:00",
+   "cantidad_adjudicaciones": 2
+  },
+  "80900002-4": {
+   "name": "Beta Ficticia",
+   "id": "PY-RUC-80900002-4",
+   "identifier": {
+    "id": "80900002-4",
+    "legalName": "BETA FICTICIA S.R.L.",
+    "scheme": "PY-RUC"
+   },
+   "contactPoint": {
+    "name": "CONTACTO FICTICIO",
+    "email": "info@beta-ficticia.example",
+    "faxNumber": "",
+    "telephone": "021 000 111"
+   },
+   "details": {
+    "legalEntityTypeDetail": "Persona Jurídica - Bienes y Servicios",
+    "size": "Pequeña",
+    "activityTypes": "services",
+    "categories": [
+     {
+      "name": "Servicios de seguridad y vigilancia",
+      "id": "30"
+     }
+    ],
+    "sanctions": [
+     {
+      "id": "mock-s1",
+      "period": {
+       "startDate": "2026-03-01T00:00:00-03:00",
+       "endDate": "2027-03-01T00:00:00-03:00"
+      },
+      "status": "Activo",
+      "description": "Inhabilitación de la firma por el plazo de doce (12) meses (DATO FICTICIO)",
+      "type": "INHABILITACION",
+      "events": []
+     }
+    ]
+   },
+   "address": {
+    "locality": "Asunción",
+    "region": "Capital",
+    "streetAddress": "Avenida Imaginaria 456",
+    "countryName": "Paraguay"
+   },
+   "date": "2026-09-01T10:00:00-03:00",
+   "cantidad_adjudicaciones": 1
+  },
+  "80900003-2": {
+   "name": "Gamma Ficticia",
+   "id": "PY-RUC-80900003-2",
+   "identifier": {
+    "id": "80900003-2",
+    "legalName": "GAMMA FICTICIA S.A.",
+    "scheme": "PY-RUC"
+   },
+   "contactPoint": {
+    "name": "CONTACTO FICTICIO",
+    "email": "gamma@gamma-ficticia.example",
+    "faxNumber": "",
+    "telephone": "021 000 999"
+   },
+   "details": {
+    "legalEntityTypeDetail": "Persona Jurídica - Bienes y Servicios",
+    "size": "Pequeña",
+    "activityTypes": "services",
+    "categories": [
+     {
+      "name": "Servicios de seguridad y vigilancia",
+      "id": "30"
+     }
+    ],
+    "sanctions": [
+     {
+      "id": "mock-s2",
+      "period": {
+       "startDate": "2020-03-04T00:00:00-04:00",
+       "endDate": "2020-09-04T00:00:00-04:00"
+      },
+      "status": "Activo",
+      "description": "Inhabilitación de la firma por el plazo de seis (6) meses (DATO FICTICIO)",
+      "type": "INHABILITACION",
+      "events": []
+     }
+    ]
+   },
+   "address": {
+    "locality": "Asunción",
+    "region": "Capital",
+    "streetAddress": "Ruta Supuesta km 7",
+    "countryName": "Paraguay"
+   },
+   "date": "2026-09-01T10:00:00-03:00",
+   "cantidad_adjudicaciones": 0
+  }
+ },
+ "records": [
+  {
+   "ocid": "ocds-mock-1001",
+   "releases": [],
+   "compiledRelease": {
+    "ocid": "ocds-mock-1001",
+    "tender": {
+     "id": "1001-t",
+     "title": "Servicio de vigilancia de oficinas (PROCESO FICTICIO)",
+     "statusDetails": "Adjudicada",
+     "procurementMethodDetails": "Concurso de Ofertas",
+     "mainProcurementCategoryDetails": "Servicios",
+     "procuringEntity": {
+      "id": "DNCP-SICP-CODE-MOCK1",
+      "name": "Ministerio Ficticio de Pruebas"
+     },
+     "tenderPeriod": {
+      "startDate": "2025-05-02T08:00:00-04:00",
+      "endDate": "2025-05-20T08:00:00-04:00"
+     },
+     "numberOfTenderers": 2,
+     "value": {
+      "amount": 150000000,
+      "currency": "PYG"
+     }
+    },
+    "buyer": {
+     "id": "DNCP-SICP-CODE-MOCK1",
+     "name": "Ministerio Ficticio de Pruebas"
+    },
+    "awards": [
+     {
+      "id": "1001-a1",
+      "suppliers": [
+       {
+        "name": "ALFA FICTICIA S.A.",
+        "id": "PY-RUC-80900001-6"
+       }
+      ],
+      "value": {
+       "amount": 140000000,
+       "currency": "PYG"
+      },
+      "date": "2025-06-01T10:00:00-04:00",
+      "statusDetails": "Adjudicado"
+     }
+    ],
+    "contracts": [
+     {
+      "id": "CO-MOCK-1001",
+      "value": {
+       "amount": 140000000,
+       "currency": "PYG"
+      },
+      "dateSigned": "2025-06-15T10:00:00-04:00",
+      "statusDetails": "Vigente"
+     }
+    ],
+    "parties": [
+     {
+      "id": "PY-RUC-80900001-6",
+      "name": "ALFA FICTICIA S.A.",
+      "roles": [
+       "supplier",
+       "tenderer"
+      ]
+     },
+     {
+      "id": "PY-RUC-80900002-4",
+      "name": "BETA FICTICIA S.R.L.",
+      "roles": [
+       "tenderer"
+      ]
+     },
+     {
+      "id": "DNCP-SICP-CODE-MOCK1",
+      "name": "Ministerio Ficticio de Pruebas",
+      "roles": [
+       "buyer",
+       "procuringEntity"
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "ocid": "ocds-mock-1002",
+   "releases": [],
+   "compiledRelease": {
+    "ocid": "ocds-mock-1002",
+    "tender": {
+     "id": "1002-t",
+     "title": "Servicio de ciberseguridad perimetral (PROCESO FICTICIO)",
+     "statusDetails": "Adjudicada",
+     "procurementMethodDetails": "Concurso de Ofertas",
+     "mainProcurementCategoryDetails": "Servicios",
+     "procuringEntity": {
+      "id": "DNCP-SICP-CODE-MOCK1",
+      "name": "Ente Ficticio de Datos"
+     },
+     "tenderPeriod": {
+      "startDate": "2025-05-02T08:00:00-04:00",
+      "endDate": "2025-05-20T08:00:00-04:00"
+     },
+     "numberOfTenderers": 3,
+     "value": {
+      "amount": 150000000,
+      "currency": "PYG"
+     }
+    },
+    "buyer": {
+     "id": "DNCP-SICP-CODE-MOCK1",
+     "name": "Ente Ficticio de Datos"
+    },
+    "awards": [
+     {
+      "id": "1002-a1",
+      "suppliers": [
+       {
+        "name": "ALFA FICTICIA S.A.",
+        "id": "PY-RUC-80900001-6"
+       }
+      ],
+      "value": {
+       "amount": 95000000,
+       "currency": "PYG"
+      },
+      "date": "2025-06-01T10:00:00-04:00",
+      "statusDetails": "Adjudicado"
+     }
+    ],
+    "contracts": [
+     {
+      "id": "CO-MOCK-1002",
+      "value": {
+       "amount": 95000000,
+       "currency": "PYG"
+      },
+      "dateSigned": "2025-06-15T10:00:00-04:00",
+      "statusDetails": "Vigente"
+     }
+    ],
+    "parties": [
+     {
+      "id": "PY-RUC-80900001-6",
+      "name": "ALFA FICTICIA S.A.",
+      "roles": [
+       "supplier",
+       "tenderer"
+      ]
+     },
+     {
+      "id": "PY-RUC-80900002-4",
+      "name": "BETA FICTICIA S.R.L.",
+      "roles": [
+       "tenderer"
+      ]
+     },
+     {
+      "id": "PY-RUC-80900003-2",
+      "name": "GAMMA FICTICIA S.A.",
+      "roles": [
+       "tenderer"
+      ]
+     },
+     {
+      "id": "DNCP-SICP-CODE-MOCK1",
+      "name": "Ente Ficticio de Datos",
+      "roles": [
+       "buyer",
+       "procuringEntity"
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "ocid": "ocds-mock-1003",
+   "releases": [],
+   "compiledRelease": {
+    "ocid": "ocds-mock-1003",
+    "tender": {
+     "id": "1003-t",
+     "title": "Monitoreo de cámaras (PROCESO FICTICIO)",
+     "statusDetails": "Adjudicada",
+     "procurementMethodDetails": "Concurso de Ofertas",
+     "mainProcurementCategoryDetails": "Servicios",
+     "procuringEntity": {
+      "id": "DNCP-SICP-CODE-MOCK1",
+      "name": "Municipalidad Ficticia"
+     },
+     "tenderPeriod": {
+      "startDate": "2025-05-02T08:00:00-04:00",
+      "endDate": "2025-05-20T08:00:00-04:00"
+     },
+     "numberOfTenderers": 1,
+     "value": {
+      "amount": 150000000,
+      "currency": "PYG"
+     }
+    },
+    "buyer": {
+     "id": "DNCP-SICP-CODE-MOCK1",
+     "name": "Municipalidad Ficticia"
+    },
+    "awards": [
+     {
+      "id": "1003-a1",
+      "suppliers": [
+       {
+        "name": "BETA FICTICIA S.R.L.",
+        "id": "PY-RUC-80900002-4"
+       }
+      ],
+      "value": {
+       "amount": 60000000,
+       "currency": "PYG"
+      },
+      "date": "2025-06-01T10:00:00-04:00",
+      "statusDetails": "Adjudicado"
+     }
+    ],
+    "contracts": [
+     {
+      "id": "CO-MOCK-1003",
+      "value": {
+       "amount": 60000000,
+       "currency": "PYG"
+      },
+      "dateSigned": "2025-06-15T10:00:00-04:00",
+      "statusDetails": "Vigente"
+     }
+    ],
+    "parties": [
+     {
+      "id": "PY-RUC-80900002-4",
+      "name": "BETA FICTICIA S.R.L.",
+      "roles": [
+       "supplier",
+       "tenderer"
+      ]
+     },
+     {
+      "id": "DNCP-SICP-CODE-MOCK1",
+      "name": "Municipalidad Ficticia",
+      "roles": [
+       "buyer",
+       "procuringEntity"
+      ]
+     }
+    ]
+   }
+  }
+ ],
+ "contracts": {
+  "CO-MOCK-1001": {
+   "id": "CO-MOCK-1001",
+   "nota": "contrato ficticio"
+  },
+  "CO-MOCK-1002": {
+   "id": "CO-MOCK-1002",
+   "nota": "contrato ficticio"
+  },
+  "CO-MOCK-1003": {
+   "id": "CO-MOCK-1003",
+   "nota": "contrato ficticio"
+  }
+ },
+ "complaints": {
+  "mock-c1": {
+   "id": "mock-c1",
+   "ocid": "ocds-mock-1002",
+   "statusDetails": "Desestimada",
+   "nota": "protesta ficticia de BETA FICTICIA S.R.L."
+  }
+ },
+ "procuringEntities": {
+  "DNCP-SICP-CODE-MOCK1": {
+   "id": "DNCP-SICP-CODE-MOCK1",
+   "name": "Ministerio Ficticio de Pruebas",
+   "identifier": {
+    "id": "MOCK1"
+   }
+  }
+ }
+}

@@ -1,0 +1,15 @@
+{
+  "caso": "Beta Ficticia (mock)",
+  "fuente_referencia": "Datos ficticios de data/mocks/dncp.json y data/samples/sanciones_demo.csv",
+  "tiempo_manual_horas": null,
+  "color_esperado": "rojo",
+  "hechos": [
+    {"id": "M-01", "descripcion": "Inhabilitación vigente en la DNCP", "entidad": {"RUC": "80900002-4"},
+     "palabras_clave": ["inhabilit"], "fuente": "DNCP"},
+    {"id": "M-02", "descripcion": "Comparte teléfono con ALFA FICTICIA S.A., competidora en los mismos procesos",
+     "entidad": {"RUC": "80900002-4"}, "palabras_clave": ["telefono"], "fuente": "DNCP"},
+    {"id": "M-03", "descripcion": "Figura en la lista de sanciones de demo con su RUC", "entidad": {"RUC": "80900002-4"},
+     "palabras_clave": ["sancion"], "fuente": "Índice de sanciones (demo)"}
+  ],
+  "homonimos_descartados": []
+}

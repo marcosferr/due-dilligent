@@ -1,0 +1,64 @@
+{
+  "color_sugerido": "rojo",
+  "puntaje": 2.0,
+  "color_por_puntaje": "amarillo",
+  "reglas_duras": [
+    {
+      "regla": "inhabilitacion_dncp_vigente",
+      "descripcion": "Inhabilitación vigente en la DNCP (vigencia calculada por fechas)",
+      "color": "rojo",
+      "hallazgo_id": 2,
+      "entidad_id": 1,
+      "dato": "Inhabilitación vigente en la DNCP (2026-03-01 a 2027-03-01)",
+      "url": "mock://dncp/suppliers/80900002-4"
+    },
+    {
+      "regla": "sancion_confirmada_por_identificador",
+      "descripcion": "Coincidencia en una lista de sanciones confirmada por identificador, no solo por nombre",
+      "color": "rojo",
+      "hallazgo_id": 6,
+      "entidad_id": 1,
+      "dato": "Figura en lista de sanciones (DEMO-FICTICIO): Inhabilitación ficticia de prueba",
+      "url": "demo://sanciones/demo-001"
+    }
+  ],
+  "contribuciones": [
+    {
+      "hallazgo_id": 5,
+      "entidad_id": 1,
+      "tipo": "hecho",
+      "categoria": "llave_compartida_competidor",
+      "severidad": 2.0,
+      "confiabilidad": "A",
+      "confianza": 1.0,
+      "aporte": 2.0,
+      "dato": "Mismo teléfono (21000111) que ALFA FICTICIA S.A., competidora en los mismos procesos",
+      "url": "mock://dncp/suppliers/80900001-6"
+    }
+  ],
+  "tareas_verificacion": [],
+  "brechas": [
+    {
+      "consulta_id": 14,
+      "fuente": "Poder Judicial – consulta de expedientes",
+      "consulta": "Expedientes de BETA FICTICIA S.R.L.",
+      "detalle": "Sin API conocida. Navegador solo si los términos de uso lo permiten."
+    },
+    {
+      "consulta_id": 15,
+      "fuente": "DNIT – Listado de RUC con equivalencias",
+      "consulta": "dnit ruc='80900002-4' nombre=None",
+      "detalle": "Modo mock: el listado DNIT no tiene datos ficticios"
+    }
+  ],
+  "que_cambiaria": [
+    "El rojo viene de una regla dura: solo cambia si el hecho que la activa se desmiente en la fuente.",
+    "Brecha: Poder Judicial – consulta de expedientes no fue accesible (Expedientes de BETA FICTICIA S.R.L.); un resultado ahí podría cambiar el color.",
+    "Brecha: DNIT – Listado de RUC con equivalencias no fue accesible (dnit ruc='80900002-4' nombre=None); un resultado ahí podría cambiar el color."
+  ],
+  "criterio": {
+    "version": "ejemplo-0.1",
+    "sha256": "251e79b1eb3d265d3ff99f2901013b87cd395a151fc49b1d2751dc93c689379b",
+    "estado": "EJEMPLO A REEMPLAZAR: valores ilustrativos del documento de diseño, no recomendados. La UNI debe fijarlos antes de usar el sistema."
+  }
+}

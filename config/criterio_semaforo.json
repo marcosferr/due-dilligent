@@ -1,0 +1,52 @@
+{
+  "version": "ejemplo-0.1",
+  "estado": "EJEMPLO A REEMPLAZAR: valores ilustrativos del documento de diseño, no recomendados. La UNI debe fijarlos antes de usar el sistema.",
+  "aprobado_por": null,
+  "confianza": { "A": 1.0, "B": 0.7, "C": 0.4, "D": 0.0 },
+  "reglas_duras": [
+    {
+      "id": "inhabilitacion_dncp_vigente",
+      "descripcion": "Inhabilitación vigente en la DNCP (vigencia calculada por fechas)",
+      "color": "rojo"
+    },
+    {
+      "id": "sancion_confirmada_por_identificador",
+      "descripcion": "Coincidencia en una lista de sanciones confirmada por identificador, no solo por nombre",
+      "color": "rojo"
+    },
+    {
+      "id": "ruc_cancelado_o_bloqueado",
+      "descripcion": "RUC cancelado o bloqueado según la DNIT",
+      "color": "rojo"
+    }
+  ],
+  "categoria_regla_dura_no_confirmada": "regla_dura_sin_confirmar",
+  "severidades": {
+    "regla_dura_sin_confirmar": 3,
+    "coincidencia_sancion_solo_nombre": 3,
+    "sancion_dncp_historica": 2,
+    "ruc_suspendido": 3,
+    "caso_judicial_denuncia": 1,
+    "caso_judicial_imputacion": 2,
+    "caso_judicial_acusacion": 3,
+    "caso_judicial_condena": 4,
+    "protesta_o_reclamo": 1,
+    "incumplimiento_contractual": 3,
+    "llave_compartida_competidor": 2,
+    "propietarios_no_identificables": 2,
+    "personas_no_coinciden_sin_explicacion": 2,
+    "prensa_negativa": 1,
+    "indicador_ocds_bandera_roja": 1,
+    "otra": 1
+  },
+  "umbrales": {
+    "verde_si_puntaje_igual_a": 0,
+    "rojo_desde": 5
+  },
+  "notas": [
+    "P = suma(severidad x confianza) sobre las posibles alertas.",
+    "P = 0 → verde; 0 < P < rojo_desde → amarillo; P ≥ rojo_desde → rojo.",
+    "Una fuente D vale cero a propósito: no mueve el color, genera una tarea de verificación.",
+    "El criterio se congela (copia + SHA-256) al crear cada caso y no cambia durante el caso."
+  ]
+}
