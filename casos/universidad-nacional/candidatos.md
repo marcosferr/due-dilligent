@@ -59,10 +59,17 @@ aplicado la regla dura. Desde este commit `obtener_proveedor` lee los eventos y 
 
 | Dato | Valor | Fuente |
 |---|---|---|
-| Contratos con la UNI | 6 en la muestra (2023–2026): equipos, laboratorio, maquinarias, informática; p. ej. 76.000.000 PYG (08/11/2024), 67.650.000 PYG (16/10/2025), 11.046.000 PYG (13/08/2026) | [444854](https://www.contrataciones.gov.py/datos/api/v3/doc/ocds/record/ocds-03ad3f-444854-1) · [462750](https://www.contrataciones.gov.py/datos/api/v3/doc/ocds/record/ocds-03ad3f-462750-1) · [484024](https://www.contrataciones.gov.py/datos/api/v3/doc/ocds/record/ocds-03ad3f-484024-1) |
-| Sanciones | 5 inhabilitaciones (2020–2025, la última del 10/12/2024 al 10/08/2025, incluida una por "incumplimiento contractual") y 3 amonestaciones (la última el 13/02/2026, por inasistencia injustificada) | [proveedor](https://www.contrataciones.gov.py/datos/api/v3/doc/suppliers/4022404-0) |
-| Revisado | Las adjudicaciones de la UNI revisadas son **anteriores o posteriores** a cada inhabilitación, no durante | |
-| Esperado con el criterio de ejemplo | Sin regla dura; **amarillo o rojo por puntaje**, según cuántas sanciones históricas se registren (severidad 2 cada una) | |
+| Actividad total | **381 procesos adjudicados** en la DNCP con decenas de convocantes (universidades, ministerios, INC, SENAVE, INTN, etc.) | [procesos por RUC](https://www.contrataciones.gov.py/datos/api/v3/doc/search/processes?awards.suppliers.id=4022404-0) |
+| Contratos con la UNI | **9 adjudicaciones entre 2017 y 2026, unos 354 M PYG en total**: 2017 (24,5 M y 6,9 M), 2018 (18,0 M), 2023 (3,0 M), 08/11/2024 (76,0 M), 06/10/2025 (40,8 M), 15/10/2025 (106,0 M), 16/10/2025 (67,7 M), 13/08/2026 (11,0 M) | `datos/benitez-peralta-cruce.json` |
+| Sanciones | 5 inhabilitaciones: 19/05–19/08/2020, 29/10/2020–28/02/2021, 08/09–08/12/2022, 29/09/2022–29/01/2023 ("Incumplimiento Contractual") y 10/12/2024–10/08/2025 (8 meses). 3 amonestaciones: 2016, 2021 y 13/02/2026 ("inasistencia sin justificación") | [proveedor](https://www.contrataciones.gov.py/datos/api/v3/doc/suppliers/4022404-0) |
+| **Cruce con las inhabilitaciones** | **Ninguna adjudicación cae dentro de un período de inhabilitación.** Se revisó la fecha real de adjudicación (record OCDS) de 59 procesos con 60 adjudicaciones: los 9 de la UNI y todos los de cualquier convocante con período de ofertas entre 270 días antes y el fin de cada inhabilitación | `datos/benitez-peralta-cruce.json` |
+| Esperado con el criterio de ejemplo | Sin regla dura (ninguna inhabilitación vigente hoy); **rojo por puntaje** si se registra cada sanción histórica (8 × severidad 2 = 16 ≥ 5) | |
+
+Límites del cruce: quedaron sin revisar 322 procesos, cuyo período de ofertas está lejos de las
+inhabilitaciones. Solo podrían caer dentro si tardaron más de 9 meses en adjudicarse. Tampoco se
+revisó si había contratos en **ejecución** durante una inhabilitación: la inhabilitación impide
+contratar de nuevo, no necesariamente cumplir lo ya firmado. Qué convocante impuso cada sanción no
+figura en la API: hay que verlo en el portal de la DNCP.
 
 Sirve para probar el puntaje y cómo se presenta un historial sin afirmar irregularidades.
 
@@ -73,6 +80,15 @@ Sirve para probar el puntaje y cómo se presenta un historial sin afirmar irregu
   SAN BLAS CONSTRUCCIONES S.R.L. (9; inhabilitación en 2012 y amonestaciones).
 - DATA SYSTEMS SAECA (7 adjudicaciones; 5 amonestaciones) también compitió contra ITTI S.A.E. en el caso Itti.
 - La muestra cubre 200 de 895 procesos: falta recorrer el resto (unas 45 llamadas más) para completar el cruce.
+
+## Datos crudos (en `datos/`)
+
+| Archivo | Contenido |
+|---|---|
+| `uni-procesos-muestra.json` | 200 de los 895 procesos de la UNI (resumen compacto de cada uno) |
+| `uni-proveedores.json` | Los 107 proveedores adjudicados de la muestra, con cantidad de adjudicaciones |
+| `uni-proveedores-sancionados.json` | Los 39 proveedores con sanciones. Se bajó **antes** de la corrección de las cautelares: solo trae `vigente_por_fechas`; para el estado real, volver a consultar con `obtener_proveedor` (que ahora expone `vigente` y los eventos) |
+| `benitez-peralta-cruce.json` | Caso 4: sanciones, 60 adjudicaciones con fecha y cruce con las inhabilitaciones |
 
 ## Siguiente paso sugerido
 

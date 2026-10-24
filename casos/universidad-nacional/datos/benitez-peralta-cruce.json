@@ -1,0 +1,669 @@
+{
+ "ruc": "4022404-0",
+ "razon_social": "HUGO FELIX BENITEZ PERALTA",
+ "sanciones": [
+  {
+   "tipo": "INHABILITACION",
+   "descripcion": "8 meses",
+   "inicio": "2024-12-10T00:00:00-04:00",
+   "fin": "2025-08-10T00:00:00-04:00",
+   "estado_segun_fuente": "Activo",
+   "vigente_por_fechas": false,
+   "suspendida_o_rehabilitada": false,
+   "vigente": false,
+   "eventos": [
+    {
+     "titulo": "Inhabilitación creada",
+     "fecha": "2024-12-10",
+     "descripcion": "8 meses"
+    }
+   ]
+  },
+  {
+   "tipo": "AMONESTACION",
+   "descripcion": "La inasistencia sin justificación por parte del proveedor, consultor o contratista a la audiencia de avenimiento, cuando éste haya sido el promotor del procedimiento (Art. 146  Ley 7021/22).\n",
+   "inicio": "2026-02-13T00:00:00-04:00",
+   "fin": null,
+   "estado_segun_fuente": "Activo",
+   "vigente_por_fechas": true,
+   "suspendida_o_rehabilitada": false,
+   "vigente": true,
+   "eventos": []
+  },
+  {
+   "tipo": "INHABILITACION",
+   "descripcion": "3 meses",
+   "inicio": "2022-09-08T00:00:00-04:00",
+   "fin": "2022-12-08T00:00:00-04:00",
+   "estado_segun_fuente": "Activo",
+   "vigente_por_fechas": false,
+   "suspendida_o_rehabilitada": false,
+   "vigente": false,
+   "eventos": [
+    {
+     "titulo": "Inhabilitación creada",
+     "fecha": "2022-09-08",
+     "descripcion": "3 meses"
+    }
+   ]
+  },
+  {
+   "tipo": "INHABILITACION",
+   "descripcion": "Disponer la inhabilitación por el plazo de (4) cuatro meses.",
+   "inicio": "2020-10-29T00:00:00-04:00",
+   "fin": "2021-02-28T00:00:00-04:00",
+   "estado_segun_fuente": "Activo",
+   "vigente_por_fechas": false,
+   "suspendida_o_rehabilitada": false,
+   "vigente": false,
+   "eventos": [
+    {
+     "titulo": "Inhabilitación creada",
+     "fecha": "2020-10-29",
+     "descripcion": "Disponer la inhabilitación por el plazo de (4) cuatro meses."
+    }
+   ]
+  },
+  {
+   "tipo": "INHABILITACION",
+   "descripcion": "Inhabilitación por tres (3) meses",
+   "inicio": "2020-05-19T00:00:00-04:00",
+   "fin": "2020-08-19T00:00:00-04:00",
+   "estado_segun_fuente": "Activo",
+   "vigente_por_fechas": false,
+   "suspendida_o_rehabilitada": false,
+   "vigente": false,
+   "eventos": [
+    {
+     "titulo": "Inhabilitación creada",
+     "fecha": "2020-05-19",
+     "descripcion": "Inhabilitación por tres (3) meses"
+    }
+   ]
+  },
+  {
+   "tipo": "AMONESTACION",
+   "descripcion": "Conducta subsumida en el inc. C. Sanción especialmente leve, amonestación y apercibimiento por escrito",
+   "inicio": "2016-01-19T12:00:00-04:00",
+   "fin": null,
+   "estado_segun_fuente": "Activo",
+   "vigente_por_fechas": true,
+   "suspendida_o_rehabilitada": false,
+   "vigente": true,
+   "eventos": []
+  },
+  {
+   "tipo": "AMONESTACION",
+   "descripcion": "Amonestación y Apercibimiento por escrito a la firma.",
+   "inicio": "2021-03-15T00:00:00-04:00",
+   "fin": null,
+   "estado_segun_fuente": "Activo",
+   "vigente_por_fechas": true,
+   "suspendida_o_rehabilitada": false,
+   "vigente": true,
+   "eventos": []
+  },
+  {
+   "tipo": "INHABILITACION",
+   "descripcion": "Incumplimiento Contractual",
+   "inicio": "2022-09-29T00:00:00-04:00",
+   "fin": "2023-01-29T00:00:00-04:00",
+   "estado_segun_fuente": "Activo",
+   "vigente_por_fechas": false,
+   "suspendida_o_rehabilitada": false,
+   "vigente": false,
+   "eventos": [
+    {
+     "titulo": "Inhabilitación creada",
+     "fecha": "2022-09-29",
+     "descripcion": "Incumplimiento Contractual"
+    }
+   ]
+  }
+ ],
+ "total_procesos": 381,
+ "revisados": 59,
+ "criterio_seleccion": "todos los de la UNI + período de ofertas entre 270 días antes y el fin de cada inhabilitación",
+ "adjudicaciones": [
+  {
+   "fecha_adjudicacion": "2017-10-05",
+   "ocid": "ocds-03ad3f-334127-1",
+   "convocante": "Universidad Nacional de Itapúa (UNI)",
+   "titulo": "Adquisición de equipos de laboratorio",
+   "monto": "24500000 PYG",
+   "modalidad": "Contratación Directa",
+   "durante_inhabilitacion": []
+  },
+  {
+   "fecha_adjudicacion": "2017-11-15",
+   "ocid": "ocds-03ad3f-334034-1",
+   "convocante": "Universidad Nacional de Itapúa (UNI)",
+   "titulo": "Adquisición de Equipos de Laboratorio (Conacyt)",
+   "monto": "6900000 PYG",
+   "modalidad": "Concurso de Ofertas",
+   "durante_inhabilitacion": []
+  },
+  {
+   "fecha_adjudicacion": "2018-11-02",
+   "ocid": "ocds-03ad3f-343044-1",
+   "convocante": "Universidad Nacional de Itapúa (UNI)",
+   "titulo": "Adquisición de Libros",
+   "monto": "18040000 PYG",
+   "modalidad": "Concurso de Ofertas",
+   "durante_inhabilitacion": []
+  },
+  {
+   "fecha_adjudicacion": "2019-10-09",
+   "ocid": "ocds-03ad3f-369174-1",
+   "convocante": "Comando de la Armada Uoc 3 / Ministerio de Defensa Nacional",
+   "titulo": "ADQUISICIÓN DE COMPUTADORA DE ESCRITORIO Y EQUIPO AUDIOVISUAL",
+   "monto": "33400000 PYG",
+   "modalidad": "Contratación Directa",
+   "durante_inhabilitacion": []
+  },
+  {
+   "fecha_adjudicacion": "2019-10-14",
+   "ocid": "ocds-03ad3f-361798-1",
+   "convocante": "Facultad de Ciencias Agrarias / Universidad Nacional de Asunción",
+   "titulo": "ADQUISICIÓN DE EQUIPOS EDUCATIVOS - PROYECTO CONACYT - CÓD. 27",
+   "monto": "35882000 PYG",
+   "modalidad": "Concurso de Ofertas",
+   "durante_inhabilitacion": []
+  },
+  {
+   "fecha_adjudicacion": "2019-10-25",
+   "ocid": "ocds-03ad3f-368237-1",
+   "convocante": "Ministerio de Justicia  (MJ)",
+   "titulo": "CD 08 ADQUISICIÓN DE EQUIPOS PARA PRENSA ",
+   "monto": "56960000 PYG",
+   "modalidad": "Contratación Directa",
+   "durante_inhabilitacion": []
+  },
+  {
+   "fecha_adjudicacion": "2019-11-11",
+   "ocid": "ocds-03ad3f-371009-1",
+   "convocante": "Facultad de Ciencias Tecnologicas / Universidad Nacional de Caaguazu",
+   "titulo": "Adquisición de equipos para laboratorio",
+   "monto": "148000000 PYG",
+   "modalidad": "Contratación Directa",
+   "durante_inhabilitacion": []
+  },
+  {
+   "fecha_adjudicacion": "2019-11-13",
+   "ocid": "ocds-03ad3f-370196-1",
+   "convocante": "Universidad Nacional de Canindeyu (UNICAN)",
+   "titulo": "Adquisición de equipos de laboratorio",
+   "monto": "102780000 PYG",
+   "modalidad": "Contratación Directa",
+   "durante_inhabilitacion": []
+  },
+  {
+   "fecha_adjudicacion": "2019-11-20",
+   "ocid": "ocds-03ad3f-362853-1",
+   "convocante": "Dirección Nacional de Aeronáutica Civil (DINAC)",
+   "titulo": "ADQUISICION DE EQUIPOS E INSTRUMENTOS METEOROLOGICOS, HIDROLOGICOSLOGICOS Y OTROS",
+   "monto": "137850000 PYG",
+   "modalidad": "Licitación Pública Nacional",
+   "durante_inhabilitacion": []
+  },
+  {
+   "fecha_adjudicacion": "2019-11-27",
+   "ocid": "ocds-03ad3f-361856-1",
+   "convocante": "Facultad de Ciencias Agrarias / Universidad Nacional de Asunción",
+   "titulo": "ADQUISICIÓN DE EQUIPOS DE LABORATORIO - PROYECTO CONACYT - CÓD. 28",
+   "monto": "8064000 PYG",
+   "modalidad": "Licitación Pública Nacional",
+   "durante_inhabilitacion": []
+  },
+  {
+   "fecha_adjudicacion": "2019-11-27",
+   "ocid": "ocds-03ad3f-368144-1",
+   "convocante": "Facultad de Arquitectura / Universidad Nacional de Asunción",
+   "titulo": "Equipamiento para el Laboratorio de Fabricación Digital (FABLAB)",
+   "monto": "65200000 PYG",
+   "modalidad": "Licitación Pública Nacional",
+   "durante_inhabilitacion": []
+  },
+  {
+   "fecha_adjudicacion": "2019-12-03",
+   "ocid": "ocds-03ad3f-368952-1",
+   "convocante": "Instituto Nacional de Tecnología, Normalización y Metrología (INTN)",
+   "titulo": "mantenimiento de equipos - ad referendum - plurianual",
+   "monto": "109980000 PYG",
+   "modalidad": "Licitación Pública Nacional",
+   "durante_inhabilitacion": []
+  },
+  {
+   "fecha_adjudicacion": "2019-12-04",
+   "ocid": "ocds-03ad3f-363600-1",
+   "convocante": "Servicio Nacional de Calidad y Sanidad Vegetal y de Semillas (SENAVE)",
+   "titulo": "ADQUISICION DE EQUIPOS DE LABORATORIO",
+   "monto": "54797000 PYG",
+   "modalidad": "Concurso de Ofertas",
+   "durante_inhabilitacion": []
+  },
+  {
+   "fecha_adjudicacion": "2019-12-04",
+   "ocid": "ocds-03ad3f-372330-1",
+   "convocante": "Honorable Cámara de Senadores",
+   "titulo": "Adquisición de equipos de comunicación para la H. Cámara de Senadores",
+   "monto": "25509600 PYG",
+   "modalidad": "Contratación Directa",
+   "durante_inhabilitacion": []
+  },
+  {
+   "fecha_adjudicacion": "2019-12-05",
+   "ocid": "ocds-03ad3f-372999-1",
+   "convocante": "Ministerio de la Niñez y la Adolescencia (MINNA)",
+   "titulo": "Adquisición de Equipos Videoconferencia y otros",
+   "monto": "124819000 PYG",
+   "modalidad": "Contratación Directa",
+   "durante_inhabilitacion": []
+  },
+  {
+   "fecha_adjudicacion": "2019-12-05",
+   "ocid": "ocds-03ad3f-367655-1",
+   "convocante": "Industria Nacional del Cemento (INC)",
+   "titulo": "ADQUISICIÓN DE FILTROS VARIOS PARA LA INC",
+   "monto": "232503650 PYG",
+   "modalidad": "Concurso de Ofertas",
+   "durante_inhabilitacion": []
+  },
+  {
+   "fecha_adjudicacion": "2019-12-05",
+   "ocid": "ocds-03ad3f-366309-1",
+   "convocante": "Industria Nacional del Cemento (INC)",
+   "titulo": "ADQUISICION DE INSUMOS PARA LABORATORIO DE VILLETA Y VALLEMI ",
+   "monto": "81700000 PYG",
+   "modalidad": "Concurso de Ofertas",
+   "durante_inhabilitacion": []
+  },
+  {
+   "fecha_adjudicacion": "2019-12-13",
+   "ocid": "ocds-03ad3f-363494-1",
+   "convocante": "Servicio Nacional de Calidad y Sanidad Vegetal y de Semillas (SENAVE)",
+   "titulo": "ADQUISICION DE INSUMOS Y ACCESORIOS QUIMICOS PARA EL LABORATORIO",
+   "monto": "333371000 PYG",
+   "modalidad": "Licitación Pública Nacional",
+   "durante_inhabilitacion": []
+  },
+  {
+   "fecha_adjudicacion": "2019-12-13",
+   "ocid": "ocds-03ad3f-369011-1",
+   "convocante": "Instituto Nacional de Tecnología, Normalización y Metrología (INTN)",
+   "titulo": "adquisicion de equipos OIAT/ONI - ad referendum",
+   "monto": "218500000 PYG",
+   "modalidad": "Licitación Pública Nacional",
+   "durante_inhabilitacion": []
+  },
+  {
+   "fecha_adjudicacion": "2019-12-20",
+   "ocid": "ocds-03ad3f-361841-1",
+   "convocante": "Facultad de Ingenieria / Universidad Nacional de Asunción",
+   "titulo": "ADQUISICIÓN DE EQUIPOS PARA LABORATORIOS - PROYECTOS DE INVESTIGACIÓN CONACYT",
+   "monto": "328971000 PYG",
+   "modalidad": "Concurso de Ofertas",
+   "durante_inhabilitacion": []
+  },
+  {
+   "fecha_adjudicacion": "2020-03-11",
+   "ocid": "ocds-03ad3f-370673-1",
+   "convocante": "Secretaria de Emergencia Nacional (SEN) / Presidencia de la República",
+   "titulo": "Adq. de accesorios Varios para Oficina",
+   "monto": "16796000 PYG",
+   "modalidad": "Contratación Directa",
+   "durante_inhabilitacion": []
+  },
+  {
+   "fecha_adjudicacion": "2020-04-20",
+   "ocid": "ocds-03ad3f-382431-1",
+   "convocante": "Servicio Nacional de Calidad y Salud Animal (SENACSA)",
+   "titulo": "ADQUISICIÓN DE INSUMOS DE SEGURIDAD SANITARIA Y DE LABORATORIO POR EMERGENCIA SANITARIA COVID - 19",
+   "monto": "198989250 PYG",
+   "modalidad": "Contratación por Excepción",
+   "durante_inhabilitacion": []
+  },
+  {
+   "fecha_adjudicacion": "2020-10-05",
+   "ocid": "ocds-03ad3f-380275-1",
+   "convocante": "Facultad de Ingenieria / Universidad Nacional de Asunción",
+   "titulo": "ADQUISICIÓN DE EQUIPOS E INSUMOS INFORMÁTICOS",
+   "monto": "60840000 PYG",
+   "modalidad": "Concurso de Ofertas",
+   "durante_inhabilitacion": []
+  },
+  {
+   "fecha_adjudicacion": "2020-10-22",
+   "ocid": "ocds-03ad3f-384378-1",
+   "convocante": "Servicio Nacional de Calidad y Salud Animal (SENACSA)",
+   "titulo": "Adquisicion de Bienes e Insumos Varios - Contingencia Covid - 19.-",
+   "monto": "0 PYG",
+   "modalidad": "Concurso de Ofertas",
+   "durante_inhabilitacion": []
+  },
+  {
+   "fecha_adjudicacion": "2021-03-29",
+   "ocid": "ocds-03ad3f-382870",
+   "convocante": "Dirección Nacional de Contrataciones Públicas (DNCP)",
+   "titulo": "Adquisición de productos nacionales y/o innovadores",
+   "monto": "62080000 PYG",
+   "modalidad": "Licitación Pública Nacional",
+   "durante_inhabilitacion": []
+  },
+  {
+   "fecha_adjudicacion": "2021-04-28",
+   "ocid": "ocds-03ad3f-382870",
+   "convocante": "Dirección Nacional de Contrataciones Públicas (DNCP)",
+   "titulo": "Adquisición de productos nacionales y/o innovadores",
+   "monto": "9820000 PYG",
+   "modalidad": "Licitación Pública Nacional",
+   "durante_inhabilitacion": []
+  },
+  {
+   "fecha_adjudicacion": "2022-07-04",
+   "ocid": "ocds-03ad3f-411985-1",
+   "convocante": "Ministerio de Trabajo, Empleo y Seguridad Social (MTESS)",
+   "titulo": "CD N° 03/2022 ADQUISICION DE LENTES DE CAMARAS PARA EL MTESS",
+   "monto": "22500000 PYG",
+   "modalidad": "Contratación Directa",
+   "durante_inhabilitacion": []
+  },
+  {
+   "fecha_adjudicacion": "2022-08-01",
+   "ocid": "ocds-03ad3f-411939-2",
+   "convocante": "Facultad de Ciencias Economicas / Universidad Nacional de Asunción",
+   "titulo": "Adquisición de Proyectores Multimedia para Casa Matriz, Filiales y CAES?",
+   "monto": "132870000 PYG",
+   "modalidad": "Contratación Directa",
+   "durante_inhabilitacion": []
+  },
+  {
+   "fecha_adjudicacion": "2023-10-24",
+   "ocid": "ocds-03ad3f-425340-1",
+   "convocante": "Universidad Nacional de Itapúa (UNI)",
+   "titulo": "Adquisición de Maquinarias equipos y herramientas mayores UNI ",
+   "monto": "3000000 PYG",
+   "modalidad": "Contratación Directa",
+   "durante_inhabilitacion": []
+  },
+  {
+   "fecha_adjudicacion": "2024-05-22",
+   "ocid": "ocds-03ad3f-445647-1",
+   "convocante": "Hospital General Pediátrico Niños de Acosta Ñu / Ministerio de Salud Pública y Bienestar Social",
+   "titulo": "Adquisición de Muebles y Enseres No Incluidos en Convenio Marco",
+   "monto": "41328000 PYG",
+   "modalidad": "Menor cuantía nacional",
+   "durante_inhabilitacion": []
+  },
+  {
+   "fecha_adjudicacion": "2024-06-17",
+   "ocid": "ocds-03ad3f-449924-1",
+   "convocante": "Universidad Nacional de Canindeyu (UNICAN)",
+   "titulo": "ADQUISICIÓN DE EQUIPOS DE LABORATORIO E INSUMOS - PROYECTO CONACYT PINV 01-267 - AD REFERÉNDUM",
+   "monto": "121857435 PYG",
+   "modalidad": "Menor cuantía nacional",
+   "durante_inhabilitacion": []
+  },
+  {
+   "fecha_adjudicacion": "2024-06-20",
+   "ocid": "ocds-03ad3f-449106-1",
+   "convocante": "Honorable Cámara de Senadores",
+   "titulo": "ADQUISICIÓN DE ROUTER PARA LA HONORABLE CÁMARA DE SENADORES",
+   "monto": "18720000 PYG",
+   "modalidad": "Menor cuantía nacional",
+   "durante_inhabilitacion": []
+  },
+  {
+   "fecha_adjudicacion": "2024-07-17",
+   "ocid": "ocds-03ad3f-443879-1",
+   "convocante": "Comando de la Fuerza Aerea Uoc 4 / Ministerio de Defensa Nacional",
+   "titulo": "ADQUISICIÓN DE EQUIPOS INFORMÁTICOS",
+   "monto": "2850000 PYG",
+   "modalidad": "Menor cuantía nacional",
+   "durante_inhabilitacion": []
+  },
+  {
+   "fecha_adjudicacion": "2024-07-22",
+   "ocid": "ocds-03ad3f-450215-1",
+   "convocante": "Comando del Ejercito Uoc 2 / Ministerio de Defensa Nacional",
+   "titulo": "ADQUISICION DE BATERIAS PARA RADIO PORTATIL",
+   "monto": "30123500 PYG",
+   "modalidad": "Menor cuantía nacional",
+   "durante_inhabilitacion": []
+  },
+  {
+   "fecha_adjudicacion": "2024-08-12",
+   "ocid": "ocds-03ad3f-444979-1",
+   "convocante": "Agencia Financiera de Desarrollo (AFD)",
+   "titulo": "Provisión de Cintas LTO para la AFD",
+   "monto": "22120000 PYG",
+   "modalidad": "Menor cuantía nacional",
+   "durante_inhabilitacion": []
+  },
+  {
+   "fecha_adjudicacion": "2024-08-14",
+   "ocid": "ocds-03ad3f-448824-1",
+   "convocante": "Comando del Ejercito Uoc 2 / Ministerio de Defensa Nacional",
+   "titulo": "ADQUISICION DE EQUIPOS EDUCATIVOS, RECREACIONALES Y EQUIPOS DE COMUNICACION Y SEÑALAMIENTOS",
+   "monto": "27450000 PYG",
+   "modalidad": "Menor cuantía nacional",
+   "durante_inhabilitacion": []
+  },
+  {
+   "fecha_adjudicacion": "2024-09-26",
+   "ocid": "ocds-03ad3f-443207-1",
+   "convocante": "Facultad de Ciencias de la Producción / Universidad Nacional de Caaguazu",
+   "titulo": "Adquisición de Maquinarias y  Equipos Agropecuarios",
+   "monto": "57000000 PYG",
+   "modalidad": "Menor cuantía nacional",
+   "durante_inhabilitacion": []
+  },
+  {
+   "fecha_adjudicacion": "2024-09-27",
+   "ocid": "ocds-03ad3f-451450-1",
+   "convocante": "Instituto Nacional de Tecnología, Normalización y Metrología (INTN)",
+   "titulo": "Adquisicion de Equipos de Laboratorio para el ONM",
+   "monto": "365148000 PYG",
+   "modalidad": "Licitación Pública Nacional",
+   "durante_inhabilitacion": []
+  },
+  {
+   "fecha_adjudicacion": "2024-10-03",
+   "ocid": "ocds-03ad3f-444948-1",
+   "convocante": "Direccion General de Salud Ambiental (DIGESA) / Ministerio de Salud Pública y Bienestar Social",
+   "titulo": "Adquisición de Herramientas, Aparatos e Instrumentos en General",
+   "monto": "33050000 PYG",
+   "modalidad": "Menor cuantía nacional",
+   "durante_inhabilitacion": []
+  },
+  {
+   "fecha_adjudicacion": "2024-10-08",
+   "ocid": "ocds-03ad3f-452870-1",
+   "convocante": "Ministerio de Industria y Comercio (MIC)",
+   "titulo": "ADQUISICIÓN DE TABLETS",
+   "monto": "33890000 PYG",
+   "modalidad": "Menor cuantía nacional",
+   "durante_inhabilitacion": []
+  },
+  {
+   "fecha_adjudicacion": "2024-10-09",
+   "ocid": "ocds-03ad3f-453170-1",
+   "convocante": "Ministerio de Industria y Comercio (MIC)",
+   "titulo": "ADQUISICIÓN DE EQUIPOS Y ACCESORIOS PARA LA DIRECCIÓN DE COMUNICACIÓN SOCIAL",
+   "monto": "112199000 PYG",
+   "modalidad": "Menor cuantía nacional",
+   "durante_inhabilitacion": []
+  },
+  {
+   "fecha_adjudicacion": "2024-10-21",
+   "ocid": "ocds-03ad3f-453458-1",
+   "convocante": "Agencia Financiera de Desarrollo (AFD)",
+   "titulo": "Adquisición de equipos y accesorios",
+   "monto": "92659000 PYG",
+   "modalidad": "Menor cuantía nacional",
+   "durante_inhabilitacion": []
+  },
+  {
+   "fecha_adjudicacion": "2024-10-25",
+   "ocid": "ocds-03ad3f-448840-1",
+   "convocante": "Industria Nacional del Cemento (INC)",
+   "titulo": "ADQUISICION DE EQUIPOS DE MEDICIÓN INDUSTRIAL PARA EL CIP VILLETA",
+   "monto": "103000000 PYG",
+   "modalidad": "Menor cuantía nacional",
+   "durante_inhabilitacion": []
+  },
+  {
+   "fecha_adjudicacion": "2024-10-29",
+   "ocid": "ocds-03ad3f-447618-1",
+   "convocante": "Facultad de Ciencias Agrarias / Universidad Nacional de Asunción",
+   "titulo": "ADQUISICIÓN DE EQUIPOS DE LABORATORIO PARA CASA MATRIZ Y FILIALES - CÓD. 20",
+   "monto": "68950000 PYG",
+   "modalidad": "Menor cuantía nacional",
+   "durante_inhabilitacion": []
+  },
+  {
+   "fecha_adjudicacion": "2024-10-30",
+   "ocid": "ocds-03ad3f-454438-1",
+   "convocante": "Ministerio de la Defensa Pública - Defensoría (MDP)",
+   "titulo": "Adquisición de equipos informáticos - AD REFERENDUM",
+   "monto": "300000000 PYG",
+   "modalidad": "Licitación Pública Nacional",
+   "durante_inhabilitacion": []
+  },
+  {
+   "fecha_adjudicacion": "2024-11-05",
+   "ocid": "ocds-03ad3f-456214-1",
+   "convocante": "Ministerio de la Defensa Pública - Defensoría (MDP)",
+   "titulo": "Adquisición de Discos HDD",
+   "monto": "11775000 PYG",
+   "modalidad": "Menor cuantía nacional",
+   "durante_inhabilitacion": []
+  },
+  {
+   "fecha_adjudicacion": "2024-11-06",
+   "ocid": "ocds-03ad3f-453425-1",
+   "convocante": "Universidad Nacional de Canindeyu (UNICAN)",
+   "titulo": "ADQUISICIÓN DE EQUIPOS PARA PROYECTO CONACYT FACULTAD DE  CIENCIAS AGRARIAS",
+   "monto": "112151000 PYG",
+   "modalidad": "Licitación Pública Nacional",
+   "durante_inhabilitacion": []
+  },
+  {
+   "fecha_adjudicacion": "2024-11-07",
+   "ocid": "ocds-03ad3f-443706-1",
+   "convocante": "Banco Central del Paraguay (BCP)",
+   "titulo": "LPN 27/2024 - ADQUISICIÓN DE DISPOSITIVOS ELECTRÓNICOS Y ACCESORIOS TECNOLÓGICOS",
+   "monto": "17500000 PYG",
+   "modalidad": "Licitación Pública Nacional",
+   "durante_inhabilitacion": []
+  },
+  {
+   "fecha_adjudicacion": "2024-11-08",
+   "ocid": "ocds-03ad3f-444854-1",
+   "convocante": "Universidad Nacional de Itapúa (UNI)",
+   "titulo": "Adquisición de equipos educativos, comunicación y señalamiento - UNI 2024",
+   "monto": "76000000 PYG",
+   "modalidad": "Menor cuantía nacional",
+   "durante_inhabilitacion": []
+  },
+  {
+   "fecha_adjudicacion": "2024-11-14",
+   "ocid": "ocds-03ad3f-448622-1",
+   "convocante": "Dirección Nacional de Aeronáutica Civil (DINAC)",
+   "titulo": "ADQUISICION DE BINOCULARES VISION NOCTURNA Y EQUIPOS PARA CONTROL DE RUIDO",
+   "monto": "43200000 PYG",
+   "modalidad": "Menor cuantía nacional",
+   "durante_inhabilitacion": []
+  },
+  {
+   "fecha_adjudicacion": "2024-11-18",
+   "ocid": "ocds-03ad3f-451607-1",
+   "convocante": "Facultad de Ingenieria / Universidad Nacional de Asunción",
+   "titulo": "ADQUISICIÓN DE EQUIPOS, MATERIALES, INSUMOS Y MOBILIARIO PARA LABORATORIOS DEL DEPARTAMENTO DE INGENIERÍA ELECTRÓNICA Y MECATRÓNICA, AD REFERÉNDUM REPROGRAMACIÓN PRESUPUESTARIA.",
+   "monto": "202879300 PYG",
+   "modalidad": "Licitación Pública Nacional",
+   "durante_inhabilitacion": []
+  },
+  {
+   "fecha_adjudicacion": "2024-11-19",
+   "ocid": "ocds-03ad3f-455325-1",
+   "convocante": "Secretaria Nacional de Cultura (SNC) / Presidencia de la República",
+   "titulo": "Adquisición de equipos de audio y video",
+   "monto": "10289000 PYG",
+   "modalidad": "Menor cuantía nacional",
+   "durante_inhabilitacion": []
+  },
+  {
+   "fecha_adjudicacion": "2024-11-21",
+   "ocid": "ocds-03ad3f-447765-1",
+   "convocante": "Servicio Nacional de Calidad y Sanidad Vegetal y de Semillas (SENAVE)",
+   "titulo": "ADQUISICIÓN DE INSUMOS Y ACCESORIOS PARA EL LABORATORIO DEL SENAVE-AD REFERENDUM",
+   "monto": "933840800 PYG",
+   "modalidad": "Licitación Pública Nacional",
+   "durante_inhabilitacion": []
+  },
+  {
+   "fecha_adjudicacion": "2024-11-21",
+   "ocid": "ocds-03ad3f-454243-1",
+   "convocante": "Instituto Nacional de Tecnología, Normalización y Metrología (INTN)",
+   "titulo": "Adquisición de Equipos ONI",
+   "monto": "24000000 PYG",
+   "modalidad": "Licitación Pública Nacional",
+   "durante_inhabilitacion": []
+  },
+  {
+   "fecha_adjudicacion": "2025-09-23",
+   "ocid": "ocds-03ad3f-464019-1",
+   "convocante": "Presidencia de la República",
+   "titulo": "MCN 04/2025 - Adquisición de Drones y Equipo de Laboratorio",
+   "monto": "19771000 PYG",
+   "modalidad": "Menor cuantía nacional",
+   "durante_inhabilitacion": []
+  },
+  {
+   "fecha_adjudicacion": "2025-10-03",
+   "ocid": "ocds-03ad3f-466025-1",
+   "convocante": "Petróleos Paraguayos (PETROPAR)",
+   "titulo": "Adquisición de  Materiales de laboratorio para la planta de MJT",
+   "monto": "61040100 PYG",
+   "modalidad": "Menor cuantía nacional",
+   "durante_inhabilitacion": []
+  },
+  {
+   "fecha_adjudicacion": "2025-10-06",
+   "ocid": "ocds-03ad3f-462763-1",
+   "convocante": "Universidad Nacional de Itapúa (UNI)",
+   "titulo": "Adquisición de Maquinarias, Equipos y Herramientas en general - Año 2025.",
+   "monto": "40829000 PYG",
+   "modalidad": "Menor cuantía nacional",
+   "durante_inhabilitacion": []
+  },
+  {
+   "fecha_adjudicacion": "2025-10-15",
+   "ocid": "ocds-03ad3f-462759-1",
+   "convocante": "Universidad Nacional de Itapúa (UNI)",
+   "titulo": "Adquisición de Equipos Informáticos Año 2025.",
+   "monto": "106000000 PYG",
+   "modalidad": "Menor cuantía nacional",
+   "durante_inhabilitacion": []
+  },
+  {
+   "fecha_adjudicacion": "2025-10-16",
+   "ocid": "ocds-03ad3f-462750-1",
+   "convocante": "Universidad Nacional de Itapúa (UNI)",
+   "titulo": "Suministro de Equipamiento para Laboratorios y Servicios de Salud - Año2025.",
+   "monto": "67650000 PYG",
+   "modalidad": "Licitación Pública Nacional",
+   "durante_inhabilitacion": []
+  },
+  {
+   "fecha_adjudicacion": "2026-08-13",
+   "ocid": "ocds-03ad3f-484024-1",
+   "convocante": "Universidad Nacional de Itapúa (UNI)",
+   "titulo": "Suministros de Equipos y Herramientas Especializadas - Año 2026",
+   "monto": "11046000 PYG",
+   "modalidad": "Menor cuantía nacional",
+   "durante_inhabilitacion": []
+  }
+ ]
+}

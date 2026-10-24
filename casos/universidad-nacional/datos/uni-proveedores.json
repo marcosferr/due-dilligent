@@ -1,0 +1,537 @@
+[
+ {
+  "ruc": "80022988-6",
+  "nombre": "COMPUGRAF INFORMATICA",
+  "adjudicaciones_en_muestra": 12
+ },
+ {
+  "ruc": "80015463-0",
+  "nombre": "ITAPUA COMUNICACIONES S.A.",
+  "adjudicaciones_en_muestra": 10
+ },
+ {
+  "ruc": "80014026-5",
+  "nombre": "MUEBLES KT S.R.L.",
+  "adjudicaciones_en_muestra": 10
+ },
+ {
+  "ruc": "701932-7",
+  "nombre": "AMADEO VIDAL VINADER RUOTI",
+  "adjudicaciones_en_muestra": 10
+ },
+ {
+  "ruc": "80054285-1",
+  "nombre": "SAN BLAS CONSTRUCCIONES S.R.L.",
+  "adjudicaciones_en_muestra": 9
+ },
+ {
+  "ruc": "80002756-6",
+  "nombre": "EMPORIO FERRETERIA S.R.L.",
+  "adjudicaciones_en_muestra": 8
+ },
+ {
+  "ruc": "80060528-4",
+  "nombre": "LABSOL S.A.",
+  "adjudicaciones_en_muestra": 8
+ },
+ {
+  "ruc": "80088565-1",
+  "nombre": "PARGOS TECH S.A",
+  "adjudicaciones_en_muestra": 8
+ },
+ {
+  "ruc": "678854-8",
+  "nombre": "CARLOS RAMON PALACIOS APONTE",
+  "adjudicaciones_en_muestra": 7
+ },
+ {
+  "ruc": "80013889-9",
+  "nombre": "DATA SYSTEMS SA EMISORA DE CAPITAL ABIERTO",
+  "adjudicaciones_en_muestra": 7
+ },
+ {
+  "ruc": "4022404-0",
+  "nombre": "HUGO FELIX BENITEZ PERALTA",
+  "adjudicaciones_en_muestra": 6
+ },
+ {
+  "ruc": "891548-2",
+  "nombre": "JUAN ALFREDO ACUÑA GARAY",
+  "adjudicaciones_en_muestra": 6
+ },
+ {
+  "ruc": "80088784-0",
+  "nombre": "MEDICAL QUIMICA S.A",
+  "adjudicaciones_en_muestra": 6
+ },
+ {
+  "ruc": "2566645-2",
+  "nombre": "OSCAR ANTONIO PEREIRA RIEVE",
+  "adjudicaciones_en_muestra": 6
+ },
+ {
+  "ruc": "3541910-5",
+  "nombre": "ALEJANDRO JOSE MARIA RAMIREZ OLMEDO",
+  "adjudicaciones_en_muestra": 6
+ },
+ {
+  "ruc": "80021999-6",
+  "nombre": "ASEGURADORA YACYRETA S.A. DE SEGUROS",
+  "adjudicaciones_en_muestra": 5
+ },
+ {
+  "ruc": "2041744-6",
+  "nombre": "Valentín Fernández Franco",
+  "adjudicaciones_en_muestra": 5
+ },
+ {
+  "ruc": "80104707-2",
+  "nombre": "Apegua Sociedad de Responsabilidad Limitada",
+  "adjudicaciones_en_muestra": 5
+ },
+ {
+  "ruc": "3997680-7",
+  "nombre": "Jessica Andrea Cabrera",
+  "adjudicaciones_en_muestra": 5
+ },
+ {
+  "ruc": "2922317-2",
+  "nombre": "Telma Celina Villasboa",
+  "adjudicaciones_en_muestra": 5
+ },
+ {
+  "ruc": "80065762-4",
+  "nombre": "Support S.A",
+  "adjudicaciones_en_muestra": 4
+ },
+ {
+  "ruc": "1895692-0",
+  "nombre": "ROLANDO SEBASTIAN MIRALLES MICIUKIEWICZ",
+  "adjudicaciones_en_muestra": 4
+ },
+ {
+  "ruc": "1976058-2",
+  "nombre": "NERI JAVIER CABALLERO PAEZ",
+  "adjudicaciones_en_muestra": 4
+ },
+ {
+  "ruc": "80036446-5",
+  "nombre": "ATLAS REPRESENTACIONES S.A.",
+  "adjudicaciones_en_muestra": 4
+ },
+ {
+  "ruc": "80018108-5",
+  "nombre": "EDICIONES TECNICAS PARAGUAYAS S.R.L.",
+  "adjudicaciones_en_muestra": 4
+ },
+ {
+  "ruc": "80002596-2",
+  "nombre": "EXIMPAR S.R.L.",
+  "adjudicaciones_en_muestra": 4
+ },
+ {
+  "ruc": "80010810-8",
+  "nombre": "PROVINDUS SA",
+  "adjudicaciones_en_muestra": 4
+ },
+ {
+  "ruc": "4112425-1",
+  "nombre": "FABIO ARMANDO LOPEZ CURTIDO",
+  "adjudicaciones_en_muestra": 4
+ },
+ {
+  "ruc": "80053062-4",
+  "nombre": "IMUT SA (IMPORTADORA DE UTILIDADES SA)",
+  "adjudicaciones_en_muestra": 3
+ },
+ {
+  "ruc": "3484327-2",
+  "nombre": "Lourdes Elizabeth Gimenez Bareiro",
+  "adjudicaciones_en_muestra": 3
+ },
+ {
+  "ruc": "80027373-7",
+  "nombre": "IN SITU S.A.",
+  "adjudicaciones_en_muestra": 3
+ },
+ {
+  "ruc": "80082167-0",
+  "nombre": "PY LOGISTICA S.A.",
+  "adjudicaciones_en_muestra": 3
+ },
+ {
+  "ruc": "80097357-7",
+  "nombre": "SOLUCION-LAB SRL",
+  "adjudicaciones_en_muestra": 3
+ },
+ {
+  "ruc": "80073524-2",
+  "nombre": "LA MISION GROUP S.R.L.",
+  "adjudicaciones_en_muestra": 3
+ },
+ {
+  "ruc": "787858-3",
+  "nombre": "FRANCISCO SABINO ROTELA LOPEZ",
+  "adjudicaciones_en_muestra": 3
+ },
+ {
+  "ruc": "366468-6",
+  "nombre": "JULIO CESAR GOMEZ RODRIGUEZ",
+  "adjudicaciones_en_muestra": 3
+ },
+ {
+  "ruc": "3297679-8",
+  "nombre": "MARCELO NICOLAS ALLENDE BENITEZ",
+  "adjudicaciones_en_muestra": 3
+ },
+ {
+  "ruc": "80007517-0",
+  "nombre": "AGRO-GANADERA REPRESENTACIONES S.A",
+  "adjudicaciones_en_muestra": 3
+ },
+ {
+  "ruc": "80095368-1",
+  "nombre": "Lozano Servicios de Limpieza",
+  "adjudicaciones_en_muestra": 2
+ },
+ {
+  "ruc": "1313092-7",
+  "nombre": "GUSTAVO ADOLFO BENITEZ BENITEZ",
+  "adjudicaciones_en_muestra": 2
+ },
+ {
+  "ruc": "80005115-7",
+  "nombre": "REPSUR COMERCIAL INDUSTRIAL S.R.L.",
+  "adjudicaciones_en_muestra": 2
+ },
+ {
+  "ruc": "80000519-8",
+  "nombre": "TELEFONICA CELULAR DEL PARAGUAY SAE (TELECEL SAE)",
+  "adjudicaciones_en_muestra": 2
+ },
+ {
+  "ruc": "2999919-7",
+  "nombre": "EDUARDO ENRRIQUE MIRALLES MICIUKIEWICZ",
+  "adjudicaciones_en_muestra": 2
+ },
+ {
+  "ruc": "702172-0",
+  "nombre": "EDGAR FLORENTIN DUARTE",
+  "adjudicaciones_en_muestra": 2
+ },
+ {
+  "ruc": "80032508-7",
+  "nombre": "SENSICRED S.A.",
+  "adjudicaciones_en_muestra": 2
+ },
+ {
+  "ruc": "80089295-0",
+  "nombre": "ALEGRÍA Y COLOR SRL",
+  "adjudicaciones_en_muestra": 2
+ },
+ {
+  "ruc": "2172215-3",
+  "nombre": "RUBEN DARIO NUÑEZ ESQUIVEL",
+  "adjudicaciones_en_muestra": 2
+ },
+ {
+  "ruc": "1706456-2",
+  "nombre": "FEDERICO DAVID FLEITAS ROA",
+  "adjudicaciones_en_muestra": 2
+ },
+ {
+  "ruc": "80088694-1",
+  "nombre": "INTERFISA SEGUROS SOCIEDAD ANÓNIMA COMPAÑÍA DE SEGUROS",
+  "adjudicaciones_en_muestra": 1
+ },
+ {
+  "ruc": "80105708-6",
+  "nombre": "Visual Artes Graficas SRL",
+  "adjudicaciones_en_muestra": 1
+ },
+ {
+  "ruc": "80013965-8",
+  "nombre": "GRAFICA MONARCA S.R.L.",
+  "adjudicaciones_en_muestra": 1
+ },
+ {
+  "ruc": "2459645-0",
+  "nombre": "Alexis Chudyk",
+  "adjudicaciones_en_muestra": 1
+ },
+ {
+  "ruc": "80026564-5",
+  "nombre": "CHACO INTERNACIONAL SA",
+  "adjudicaciones_en_muestra": 1
+ },
+ {
+  "ruc": "5607772-6",
+  "nombre": "Michel Denis Has Baez",
+  "adjudicaciones_en_muestra": 1
+ },
+ {
+  "ruc": "2464976-7",
+  "nombre": "DIEGO RAFAEL BECONI OCHIPINTI",
+  "adjudicaciones_en_muestra": 1
+ },
+ {
+  "ruc": "80004396-0",
+  "nombre": "INTEC INGENIERIA S.A.E",
+  "adjudicaciones_en_muestra": 1
+ },
+ {
+  "ruc": "80083861-0",
+  "nombre": "LOS ANDES INGENIERÍA S. R. L.",
+  "adjudicaciones_en_muestra": 1
+ },
+ {
+  "ruc": "80027682-5",
+  "nombre": "P & V SA ",
+  "adjudicaciones_en_muestra": 1
+ },
+ {
+  "ruc": "80000505-8",
+  "nombre": "PIRO`Y S.A.",
+  "adjudicaciones_en_muestra": 1
+ },
+ {
+  "ruc": "3506561-3",
+  "nombre": "Arnaldo Miguel Sanguina González",
+  "adjudicaciones_en_muestra": 1
+ },
+ {
+  "ruc": "80019867-0",
+  "nombre": "PLUSCAR SA",
+  "adjudicaciones_en_muestra": 1
+ },
+ {
+  "ruc": "80024679-9",
+  "nombre": "ANDROMEDA SECURITY SA",
+  "adjudicaciones_en_muestra": 1
+ },
+ {
+  "ruc": "80079377-3",
+  "nombre": "Vgo Ingenieria S.A.",
+  "adjudicaciones_en_muestra": 1
+ },
+ {
+  "ruc": "80098601-6",
+  "nombre": "Emprendimientos del Sur S.A.",
+  "adjudicaciones_en_muestra": 1
+ },
+ {
+  "ruc": "80046953-4",
+  "nombre": "INFORMATION TECHNOLOGY CONSULTING SUPPORT SOCIEDAD ANONIMA",
+  "adjudicaciones_en_muestra": 1
+ },
+ {
+  "ruc": "80096504-3",
+  "nombre": "PARAGUAY INSUMOS .COM S.A",
+  "adjudicaciones_en_muestra": 1
+ },
+ {
+  "ruc": "80064898-6",
+  "nombre": "MACRO SCIENCE SOCIEDAD ANÓNIMA",
+  "adjudicaciones_en_muestra": 1
+ },
+ {
+  "ruc": "80013251-3",
+  "nombre": "YRENDAGUE SERVICIO DE SEGURIDAD SA ",
+  "adjudicaciones_en_muestra": 1
+ },
+ {
+  "ruc": "4115910-1",
+  "nombre": "ALEJANDRO OMAR SCHRAMEIER GRAU",
+  "adjudicaciones_en_muestra": 1
+ },
+ {
+  "ruc": "80020475-1",
+  "nombre": "DIVISERV SA",
+  "adjudicaciones_en_muestra": 1
+ },
+ {
+  "ruc": "80050419-4",
+  "nombre": "RENFE SA",
+  "adjudicaciones_en_muestra": 1
+ },
+ {
+  "ruc": "2507948-4",
+  "nombre": "María Angelica Santa Cruz Peralta",
+  "adjudicaciones_en_muestra": 1
+ },
+ {
+  "ruc": "80011611-9",
+  "nombre": "CENTRO GRAFICO S.R.L.",
+  "adjudicaciones_en_muestra": 1
+ },
+ {
+  "ruc": "2631514-9",
+  "nombre": "ROBERT WILLIAM WOOD BENITEZ ",
+  "adjudicaciones_en_muestra": 1
+ },
+ {
+  "ruc": "1814281-8",
+  "nombre": "JOSE ANIBAL RIVAS MARTINEZ",
+  "adjudicaciones_en_muestra": 1
+ },
+ {
+  "ruc": "80045691-2",
+  "nombre": "\"VICICON\" SOCIEDAD ANONIMA ",
+  "adjudicaciones_en_muestra": 1
+ },
+ {
+  "ruc": "80090759-0",
+  "nombre": "DESARROLLO INNOVACIÓN Y NEGOCIOS D-INN S.A",
+  "adjudicaciones_en_muestra": 1
+ },
+ {
+  "ruc": "1081860",
+  "nombre": "ESCOBAR OJEDA NORMA BEATRIZ",
+  "adjudicaciones_en_muestra": 1
+ },
+ {
+  "ruc": "80014552-6",
+  "nombre": "TAPE RUVICHA SA EMISORA DE CAPITAL ABIERTO",
+  "adjudicaciones_en_muestra": 1
+ },
+ {
+  "ruc": "80094477-1",
+  "nombre": "SOLVER INDUSTRIAL S.R.L.",
+  "adjudicaciones_en_muestra": 1
+ },
+ {
+  "ruc": "80102140-5",
+  "nombre": "Mare Group S.A.",
+  "adjudicaciones_en_muestra": 1
+ },
+ {
+  "ruc": "80105432-0",
+  "nombre": "GRUPO BRIO S.A",
+  "adjudicaciones_en_muestra": 1
+ },
+ {
+  "ruc": "4119457-8",
+  "nombre": "Carlos Atilio Carlson Capli",
+  "adjudicaciones_en_muestra": 1
+ },
+ {
+  "ruc": "80030218-4",
+  "nombre": "DATA LAB SA",
+  "adjudicaciones_en_muestra": 1
+ },
+ {
+  "ruc": "4601610-4",
+  "nombre": "IRIS PATRICIA POSADA",
+  "adjudicaciones_en_muestra": 1
+ },
+ {
+  "ruc": "606020-0",
+  "nombre": "ANTONIO RAFAEL CABRERA BURGOS",
+  "adjudicaciones_en_muestra": 1
+ },
+ {
+  "ruc": "80023172-4",
+  "nombre": "ITAPUA COMPUTACION SRL",
+  "adjudicaciones_en_muestra": 1
+ },
+ {
+  "ruc": "80025239-0",
+  "nombre": "PANAL COMPAÑIA DE SEGUROS GENERALES SA PROPIEDAD COOPERATIVA ",
+  "adjudicaciones_en_muestra": 1
+ },
+ {
+  "ruc": "80011037-4",
+  "nombre": "IMPLEMENTOS Y MAQUINARIAS AGRICOLAS SOCIEDAD DE RESPONSABILIDAD LIMITADA",
+  "adjudicaciones_en_muestra": 1
+ },
+ {
+  "ruc": "80098902-3",
+  "nombre": "19 DE ENERO S.R.L.",
+  "adjudicaciones_en_muestra": 1
+ },
+ {
+  "ruc": "4327886-8",
+  "nombre": "MARCELO ALFREDO SCHNEIDER ESCOBAR",
+  "adjudicaciones_en_muestra": 1
+ },
+ {
+  "ruc": "2515412-5",
+  "nombre": "EDGAR BERNARDINO RODRIGUEZ BARRIOS",
+  "adjudicaciones_en_muestra": 1
+ },
+ {
+  "ruc": "4681644-5",
+  "nombre": "EDITH NAHIR CORONEL FRANCO",
+  "adjudicaciones_en_muestra": 1
+ },
+ {
+  "ruc": "80003182-2",
+  "nombre": "ARTES GRAFICAS ZAMPHIROPOLOS SA",
+  "adjudicaciones_en_muestra": 1
+ },
+ {
+  "ruc": "2455792-7",
+  "nombre": "LUIS ALBERTO VIVEROS BARRIOS",
+  "adjudicaciones_en_muestra": 1
+ },
+ {
+  "ruc": "807052-0",
+  "nombre": "JULIO CESAR GAMON BENITEZ",
+  "adjudicaciones_en_muestra": 1
+ },
+ {
+  "ruc": "912732-1",
+  "nombre": "Angela Cubilla Machuca de Flores",
+  "adjudicaciones_en_muestra": 1
+ },
+ {
+  "ruc": "80001856-7",
+  "nombre": "FENIX S.A. DE SEGUROS Y REASEGUROS",
+  "adjudicaciones_en_muestra": 1
+ },
+ {
+  "ruc": "2206452-4",
+  "nombre": "EVA NATALIA PEREYRA ACOSTA ",
+  "adjudicaciones_en_muestra": 1
+ },
+ {
+  "ruc": "80047085-0",
+  "nombre": "BLACK COLORS S:R:L",
+  "adjudicaciones_en_muestra": 1
+ },
+ {
+  "ruc": "80088955-0",
+  "nombre": "Quintana Ruiz Diaz S.A",
+  "adjudicaciones_en_muestra": 1
+ },
+ {
+  "ruc": "80009767-0",
+  "nombre": "SHIROSAWA COMPANY SAIC",
+  "adjudicaciones_en_muestra": 1
+ },
+ {
+  "ruc": "80027196-3",
+  "nombre": "SAN NICOLAS S.R.L.",
+  "adjudicaciones_en_muestra": 1
+ },
+ {
+  "ruc": "1861865-0",
+  "nombre": "FELICITA BERNAL MERCADO",
+  "adjudicaciones_en_muestra": 1
+ },
+ {
+  "ruc": "80094324-4",
+  "nombre": "PROEM SOCIEDAD ANÓNIMA",
+  "adjudicaciones_en_muestra": 1
+ },
+ {
+  "ruc": "80050233-7",
+  "nombre": "TERA S.R.L.",
+  "adjudicaciones_en_muestra": 1
+ },
+ {
+  "ruc": "80017709-6",
+  "nombre": "SDA PARAGUAY",
+  "adjudicaciones_en_muestra": 1
+ }
+]
