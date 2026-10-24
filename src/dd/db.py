@@ -38,6 +38,8 @@ TIPOS_VINCULO = (
     "contrato_con",
     "sucesora_de",
     "misma_marca",
+    "parte_de",  # nombrada en un fideicomiso, consorcio o grupo
+    "contacto_registrado",  # figura como contacto en un registro; no implica representación legal
 )
 
 ESQUEMA = """

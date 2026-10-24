@@ -32,3 +32,5 @@ def test_detectar_forma_y_normalizar():
 def test_similitud():
     assert similitud("Integralis S.A.", "INTEGRALIS SA") == 1.0
     assert similitud("Integralis", "Constructora Delta") < 0.5
+    assert similitud("Horacio Manuel Cartes Jara", "CARTES JARA, Horacio Manuel") == 1.0
+    assert similitud("Juan Perez", "Juana Pereira Gomez") < 0.85

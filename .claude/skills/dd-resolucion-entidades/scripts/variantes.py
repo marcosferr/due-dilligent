@@ -16,6 +16,7 @@ FORMAS = {
     "S.A.": ["S.A.", "S.A", "S. A.", "S A", "SA", "Sociedad Anónima", "Sociedad Anonima"],
     "S.R.L.": ["S.R.L.", "S.R.L", "SRL", "S. R. L.", "Sociedad de Responsabilidad Limitada"],
     "S.A.E.C.A.": ["S.A.E.C.A.", "SAECA", "S.A.E.C.A", "Sociedad Anónima Emisora de Capital Abierto"],
+    "S.A.E.": ["S.A.E.", "S.A.E", "SAE", "S. A. E.", "Sociedad Anónima Emisora"],
     "E.A.S.": ["E.A.S.", "EAS", "Empresa por Acciones Simplificadas"],
     "LLC": ["LLC", "L.L.C.", "Limited Liability Company"],
     "INC": ["Inc.", "Inc", "Incorporated"],

@@ -1,0 +1,192 @@
+{
+  "color_sugerido": "rojo",
+  "puntaje": 9.6,
+  "color_por_puntaje": "rojo",
+  "reglas_duras": [],
+  "contribuciones": [
+    {
+      "hallazgo_id": 18,
+      "entidad_id": 2,
+      "tipo": "hecho",
+      "categoria": "sancion_dncp_historica",
+      "severidad": 2.0,
+      "confiabilidad": "A",
+      "confianza": 1.0,
+      "aporte": 2.0,
+      "dato": "J. FLEISCHMAN SAECA (RUC 80001490-1) registrada en la DNCP como 'absorbido por ITTI S.A.E.C.A', con una amonestación desde el 18/01/2023",
+      "url": "https://www.contrataciones.gov.py/datos/api/v3/doc/suppliers/80001490-1"
+    },
+    {
+      "hallazgo_id": 21,
+      "entidad_id": 1,
+      "tipo": "hecho",
+      "categoria": "llave_compartida_competidor",
+      "severidad": 2.0,
+      "confiabilidad": "A",
+      "confianza": 1.0,
+      "aporte": 2.0,
+      "dato": "En 3 procesos del BNF de 2022 los únicos dos oferentes fueron ITTI S.A.E. y J. Fleischman (registrada como absorbida por ITTI), que comparten teléfono",
+      "url": "https://www.contrataciones.gov.py/datos/api/v3/doc/ocds/record/ocds-03ad3f-403937-1"
+    },
+    {
+      "hallazgo_id": 4,
+      "entidad_id": 1,
+      "tipo": "hecho",
+      "categoria": "indicador_ocds_bandera_roja",
+      "severidad": 1.0,
+      "confiabilidad": "A",
+      "confianza": 1.0,
+      "aporte": 1.0,
+      "dato": "Concentración: 10 de 34 procesos adjudicados son del Banco Nacional de Fomento (29 %)",
+      "url": "https://www.contrataciones.gov.py/datos/api/v3/doc/search/processes?awards.suppliers.id=80028355-4&page=1&items_per_page=10"
+    },
+    {
+      "hallazgo_id": 5,
+      "entidad_id": 1,
+      "tipo": "hecho",
+      "categoria": "indicador_ocds_bandera_roja",
+      "severidad": 1.0,
+      "confiabilidad": "A",
+      "confianza": 1.0,
+      "aporte": 1.0,
+      "dato": "Oferente único en la LPN 411587 del BNF (software de gestión de riesgos), adjudicada por 3.200.000.000 PYG",
+      "url": "https://www.contrataciones.gov.py/datos/api/v3/doc/ocds/record/ocds-03ad3f-411587-1"
+    },
+    {
+      "hallazgo_id": 6,
+      "entidad_id": 1,
+      "tipo": "hecho",
+      "categoria": "indicador_ocds_bandera_roja",
+      "severidad": 1.0,
+      "confiabilidad": "A",
+      "confianza": 1.0,
+      "aporte": 1.0,
+      "dato": "Subasta 467133 del BNF: único oferente y adjudicación 18,6 % por encima del monto estimado",
+      "url": "https://www.contrataciones.gov.py/datos/api/v3/doc/ocds/record/ocds-03ad3f-467133-1"
+    },
+    {
+      "hallazgo_id": 9,
+      "entidad_id": 1,
+      "tipo": "hecho",
+      "categoria": "protesta_o_reclamo",
+      "severidad": 1.0,
+      "confiabilidad": "A",
+      "confianza": 1.0,
+      "aporte": 1.0,
+      "dato": "Protesta 1103 de ROSHKA S.A. contra la adjudicación a ITTI del proceso 428009 (BNF): rechazada in límine (Res. DNCP 4786/23)",
+      "url": "https://www.contrataciones.gov.py/datos/api/v3/doc/complaints/1103"
+    },
+    {
+      "hallazgo_id": 12,
+      "entidad_id": 1,
+      "tipo": "posible_alerta",
+      "categoria": "prensa_negativa",
+      "severidad": 1.0,
+      "confiabilidad": "C",
+      "confianza": 0.4,
+      "aporte": 0.4,
+      "dato": "Según ABC Color, en el llamado 445258 ITTI no presentó el formulario de oferta firmado; el BNF declaró desierto el llamado",
+      "url": "https://www.abc.com.py/economia/2025/05/11/itti-habria-incumplido-un-requisito-sustancial-en-la-licitacion-del-bnf/"
+    },
+    {
+      "hallazgo_id": 13,
+      "entidad_id": 1,
+      "tipo": "posible_alerta",
+      "categoria": "prensa_negativa",
+      "severidad": 1.0,
+      "confiabilidad": "C",
+      "confianza": 0.4,
+      "aporte": 0.4,
+      "dato": "Según la prensa, el Consorcio Solubank denunció ante la DNCP irregularidades en la evaluación de ITTI en el llamado 445258 (denuncia pendiente a dic. 2025)",
+      "url": "https://prensamercosur.org/2025/12/09/al-menos-cinco-articulos-se-violaron-en-licitacion-del-bnf-segun-denuncia/"
+    },
+    {
+      "hallazgo_id": 14,
+      "entidad_id": 1,
+      "tipo": "posible_alerta",
+      "categoria": "prensa_negativa",
+      "severidad": 1.0,
+      "confiabilidad": "C",
+      "confianza": 0.4,
+      "aporte": 0.4,
+      "dato": "Llamado 480207 del BNF (core bancario, 135.853 M PYG) en evaluación técnica; según ABC Color los únicos oferentes son ITTI S.A.E. y Softshop S.A.",
+      "url": "https://www.abc.com.py/economia/2026/08/05/aun-con-solo-dos-competidores-y-cambios-en-el-llamado-bnf-considera-que-proceso-del-core-es-transparente/"
+    },
+    {
+      "hallazgo_id": 15,
+      "entidad_id": 1,
+      "tipo": "posible_alerta",
+      "categoria": "prensa_negativa",
+      "severidad": 1.0,
+      "confiabilidad": "C",
+      "confianza": 0.4,
+      "aporte": 0.4,
+      "dato": "ABC Color afirma que los dueños de ITTI son exsocios comerciales del presidente Santiago Peña y que este declaró inversiones en la compañía hasta marzo de 2025",
+      "url": "https://www.abc.com.py/economia/2026/08/05/aun-con-solo-dos-competidores-y-cambios-en-el-llamado-bnf-considera-que-proceso-del-core-es-transparente/"
+    }
+  ],
+  "tareas_verificacion": [
+    {
+      "hallazgo_id": 12,
+      "dato": "Según ABC Color, en el llamado 445258 ITTI no presentó el formulario de oferta firmado; el BNF declaró desierto el llamado",
+      "motivo": "Posible alerta sin identificador: confirmar o descartar"
+    },
+    {
+      "hallazgo_id": 13,
+      "dato": "Según la prensa, el Consorcio Solubank denunció ante la DNCP irregularidades en la evaluación de ITTI en el llamado 445258 (denuncia pendiente a dic. 2025)",
+      "motivo": "Posible alerta sin identificador: confirmar o descartar"
+    },
+    {
+      "hallazgo_id": 14,
+      "dato": "Llamado 480207 del BNF (core bancario, 135.853 M PYG) en evaluación técnica; según ABC Color los únicos oferentes son ITTI S.A.E. y Softshop S.A.",
+      "motivo": "Posible alerta sin identificador: confirmar o descartar"
+    },
+    {
+      "hallazgo_id": 15,
+      "dato": "ABC Color afirma que los dueños de ITTI son exsocios comerciales del presidente Santiago Peña y que este declaró inversiones en la compañía hasta marzo de 2025",
+      "motivo": "Posible alerta sin identificador: confirmar o descartar"
+    }
+  ],
+  "brechas": [
+    {
+      "consulta_id": 55,
+      "fuente": "DNCP – certificado de código de contratación (PDF)",
+      "consulta": "CO-27001-22-221589.pdf (citado por la búsqueda con representantes legales)",
+      "detalle": "Devuelve una página HTML en lugar del PDF (requiere navegador)"
+    },
+    {
+      "consulta_id": 56,
+      "fuente": "Índice local de sanciones – PEP",
+      "consulta": "Screening PEP de personas vinculadas",
+      "detalle": "El índice cargado tiene sanciones y exclusiones (OpenSanctions sanctions + debarment, OFAC); no incluye la colección de PEP"
+    },
+    {
+      "consulta_id": 57,
+      "fuente": "Dirección General de los Registros Públicos (Paraguay)",
+      "consulta": "Accionistas y directorio de ITTI S.A.E. (RUC 80028355-4) y fecha de la fusión con J. Fleischman y Cía.",
+      "detalle": "Inscripción de sociedades y sucursales extranjeras: trámite presencial o con usuario."
+    },
+    {
+      "consulta_id": 58,
+      "fuente": "Poder Judicial – consulta de expedientes",
+      "consulta": "Expedientes judiciales de ITTI S.A.E. y J. Fleischman y Cía. S.A.",
+      "detalle": "Sin API conocida. Navegador solo si los términos de uso lo permiten."
+    }
+  ],
+  "que_cambiaria": [
+    "Cualquier hecho confirmado de una regla dura (inhabilitacion_dncp_vigente, sancion_confirmada_por_identificador, ruc_cancelado_o_bloqueado) llevaría a rojo.",
+    "Si H-12 (prensa_negativa) se confirmara con una fuente A, su aporte pasaría de 0.4 a 1.0; si se descartara, el puntaje bajaría a 9.2.",
+    "Si H-13 (prensa_negativa) se confirmara con una fuente A, su aporte pasaría de 0.4 a 1.0; si se descartara, el puntaje bajaría a 9.2.",
+    "Si H-14 (prensa_negativa) se confirmara con una fuente A, su aporte pasaría de 0.4 a 1.0; si se descartara, el puntaje bajaría a 9.2.",
+    "Si H-15 (prensa_negativa) se confirmara con una fuente A, su aporte pasaría de 0.4 a 1.0; si se descartara, el puntaje bajaría a 9.2.",
+    "Brecha: DNCP – certificado de código de contratación (PDF) no fue accesible (CO-27001-22-221589.pdf (citado por la búsqueda con representantes legales)); un resultado ahí podría cambiar el color.",
+    "Brecha: Índice local de sanciones – PEP no fue accesible (Screening PEP de personas vinculadas); un resultado ahí podría cambiar el color.",
+    "Brecha: Dirección General de los Registros Públicos (Paraguay) no fue accesible (Accionistas y directorio de ITTI S.A.E. (RUC 80028355-4) y fecha de la fusión con J. Fleischman y Cía.); un resultado ahí podría cambiar el color.",
+    "Brecha: Poder Judicial – consulta de expedientes no fue accesible (Expedientes judiciales de ITTI S.A.E. y J. Fleischman y Cía. S.A.); un resultado ahí podría cambiar el color."
+  ],
+  "criterio": {
+    "version": "ejemplo-0.1",
+    "sha256": "251e79b1eb3d265d3ff99f2901013b87cd395a151fc49b1d2751dc93c689379b",
+    "estado": "EJEMPLO A REEMPLAZAR: valores ilustrativos del documento de diseño, no recomendados. La UNI debe fijarlos antes de usar el sistema."
+  }
+}

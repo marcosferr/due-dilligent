@@ -91,8 +91,14 @@ def dnit_buscar(nombre: str | None = None, ruc: str | None = None, limite: int =
         base, _ = separar(ruc)
         filas = con.execute("SELECT * FROM ruc WHERE ruc = ?", (base,)).fetchall()
     elif nombre:
-        patron = "%" + normalizar(nombre, quitar_forma=True) + "%"
-        filas = con.execute("SELECT * FROM ruc WHERE razon_norm LIKE ? LIMIT ?", (patron, limite)).fetchall()
+        clave = normalizar(nombre, quitar_forma=True)
+        # Primero la palabra completa (ITTI S.A.E.), después la subcadena (SELLITTI)
+        filas = con.execute(
+            "SELECT * FROM ruc WHERE razon_norm LIKE ? ORDER BY CASE"
+            " WHEN razon_norm = ? OR razon_norm LIKE ? THEN 0"
+            " WHEN ' ' || razon_norm || ' ' LIKE ? THEN 1 ELSE 2 END, length(razon_norm) LIMIT ?",
+            (f"%{clave}%", clave, f"{clave} %", f"% {clave} %", limite),
+        ).fetchall()
     else:
         raise ValueError("Indicar nombre o ruc")
     con.close()

@@ -32,7 +32,8 @@ def agregar_vinculo(
     """Agrega un vínculo entre nodos ('entidad' o 'persona') respaldado por un hallazgo.
     tipo: accionista | representante | director | gestor | agente_registrado | misma_direccion |
     mismo_telefono | mismo_correo | mismo_dominio | funcionario_en | compitio_contra | contrato_con |
-    sucesora_de | misma_marca. agente_registrado no cuenta como persona vinculada."""
+    sucesora_de | misma_marca | parte_de | contacto_registrado. agente_registrado no cuenta como persona
+    vinculada; contacto_registrado no implica representación legal."""
     try:
         with db.conectar() as con:
             vid = db.registrar_vinculo(con, caso_id, desde_tipo, desde_id, tipo, hacia_tipo, hacia_id, hallazgo_id)
